@@ -20,7 +20,7 @@
         "element_id": "hp01",
         "name": "Service Category Headline",
         "type": "headline",
-        "first_principle_label": "Service Category Identifier \u2014 tells the visitor immediately what domain they're in",
+        "first_principle_label": "Service Category Identifier — tells the visitor immediately what domain they're in",
         "specs": {
           "font_size": "48-64px",
           "font_weight": "800",
@@ -45,9 +45,9 @@
         ],
         "evidence": [
           {
-            "study": "Nielsen Norman Group \u2014 F-Pattern eye tracking",
+            "study": "Nielsen Norman Group — F-Pattern eye tracking",
             "finding": "Users read the first 2-3 words of a headline 80% of the time; after that it drops to 20%",
-            "implication": "The first word must immediately communicate relevance \u2014 uppercase + bold ensures it's seen",
+            "implication": "The first word must immediately communicate relevance — uppercase + bold ensures it's seen",
             "lift_estimate": "+10-20% engagement"
           }
         ]
@@ -56,7 +56,7 @@
         "element_id": "hp02",
         "name": "Pain-Solution Pairing Subheadline",
         "type": "subheadline",
-        "first_principle_label": "Problem-to-Outcome Bridge \u2014 names the pain and implies the cure in one line",
+        "first_principle_label": "Problem-to-Outcome Bridge — names the pain and implies the cure in one line",
         "specs": {
           "font_size": "28-42px",
           "font_weight": "600-700",
@@ -84,7 +84,7 @@
         ],
         "evidence": [
           {
-            "study": "Unbounce \u2014 64,000 landing page analysis",
+            "study": "Unbounce — 64,000 landing page analysis",
             "finding": "Pages matching the search query's pain point in the subheadline converted 42% higher than generic alternatives",
             "implication": "Name the exact pain the visitor searched for",
             "lift_estimate": "+30-42%"
@@ -95,7 +95,7 @@
         "element_id": "hp03",
         "name": "Mechanism Explanation Body",
         "type": "body_text",
-        "first_principle_label": "How-It-Works Demystifier \u2014 reduces the unknown, builds confidence through explanation",
+        "first_principle_label": "How-It-Works Demystifier — reduces the unknown, builds confidence through explanation",
         "specs": {
           "font_size": "16-20px",
           "line_height": "1.6-1.8",
@@ -119,7 +119,7 @@
         ],
         "evidence": [
           {
-            "study": "Nielsen Norman \u2014 Text scanning study, 2008",
+            "study": "Nielsen Norman — Text scanning study, 2008",
             "finding": "79% of users scan rather than read. Bolded keywords receive 2-3x longer fixation",
             "implication": "Bold the 2-3 most important benefits so scanners still get the message",
             "lift_estimate": "+15-25% comprehension"
@@ -130,7 +130,7 @@
         "element_id": "hp04",
         "name": "Convergent Directional Arrows",
         "type": "visual_cue",
-        "first_principle_label": "Attention Funnel \u2014 physically channels the reader's gaze to the action point",
+        "first_principle_label": "Attention Funnel — physically channels the reader's gaze to the action point",
         "specs": {
           "style": "hand-drawn or solid arrow",
           "direction": "converging inward toward CTA",
@@ -157,13 +157,13 @@
         ],
         "evidence": [
           {
-            "study": "Zhang et al. \u2014 Journal of Consumer Psychology",
+            "study": "Zhang et al. — Journal of Consumer Psychology",
             "finding": "Directional cues increased CTA click-through by 20-35% versus identical layouts without cues",
-            "implication": "Don't assume users will find the CTA \u2014 guide them there visually",
+            "implication": "Don't assume users will find the CTA — guide them there visually",
             "lift_estimate": "+20-35%"
           },
           {
-            "study": "ConversionLab \u2014 case study compilation",
+            "study": "ConversionLab — case study compilation",
             "finding": "Average 28% lift from adding any directional cue above CTAs across 40+ tests",
             "implication": "This is one of the highest-ROI design changes you can make",
             "lift_estimate": "+28% avg"
@@ -174,7 +174,7 @@
         "element_id": "hp05",
         "name": "Zero-Risk Offer CTA",
         "type": "cta_button",
-        "first_principle_label": "Risk-Elimination Offer \u2014 removes the barrier of uncertainty that stops action",
+        "first_principle_label": "Risk-Elimination Offer — removes the barrier of uncertainty that stops action",
         "specs": {
           "shape": "rounded rectangle (border-radius: 8-50px)",
           "size": "large (48-60px height, 200-400px wide)",
@@ -209,25 +209,25 @@
         ],
         "evidence": [
           {
-            "study": "Optimizely \u2014 A/B test on CTA copy",
+            "study": "Optimizely — A/B test on CTA copy",
             "finding": "Changing from \"Book Now\" to \"Get a Free Consultation\" increased conversions by 45%",
             "implication": "The word 'free' eliminates the fear of commitment",
             "lift_estimate": "+45%"
           },
           {
-            "study": "Unbounce \u2014 64,000 landing page meta-analysis",
+            "study": "Unbounce — 64,000 landing page meta-analysis",
             "finding": "Pages offering something free in the CTA converted 23% higher overall",
             "implication": "Free is a proven psychological trigger, not a gimmick",
             "lift_estimate": "+23%"
           },
           {
-            "study": "CXL Institute \u2014 CTA Button Color Research",
-            "finding": "Button contrast ratio against surrounding area correlates with CTR at r=0.84. Button color itself has no independent effect \u2014 context contrast is everything",
+            "study": "CXL Institute — CTA Button Color Research",
+            "finding": "Button contrast ratio against surrounding area correlates with CTR at r=0.84. Button color itself has no independent effect — context contrast is everything",
             "implication": "Pick a color that maximally contrasts the background, not your brand color",
             "lift_estimate": "+15-25% from contrast optimization"
           },
           {
-            "study": "Kahneman & Tversky \u2014 Prospect Theory",
+            "study": "Kahneman & Tversky — Prospect Theory",
             "finding": "Losses loom approximately 2x larger than equivalent gains. Risk of wasting money outweighs potential benefit",
             "implication": "Eliminating the risk is 2x more motivating than emphasizing the benefit",
             "lift_estimate": "2x psychological weighting"
@@ -238,7 +238,7 @@
         "element_id": "hp06",
         "name": "Post-CTA Empathy Microcopy",
         "type": "microcopy",
-        "first_principle_label": "Emotional Closer \u2014 validates the visitor's pain and suggests relief is near",
+        "first_principle_label": "Emotional Closer — validates the visitor's pain and suggests relief is near",
         "specs": {
           "font_size": "12-16px",
           "color": "white or subtle gray",
@@ -252,7 +252,7 @@
           },
           {
             "label": "Urgency",
-            "example": "Limited spots available \u2014 act now"
+            "example": "Limited spots available — act now"
           },
           {
             "label": "Social proof",
@@ -265,7 +265,7 @@
         ],
         "evidence": [
           {
-            "study": "Laran & Tsiros \u2014 Journal of Consumer Research",
+            "study": "Laran & Tsiros — Journal of Consumer Research",
             "finding": "Emotionally resonant microcopy positioned below a CTA increased clicking by 32% in service industries",
             "implication": "The emotional close can be the difference between click and bounce",
             "lift_estimate": "+32%"
@@ -276,7 +276,7 @@
         "element_id": "hp07",
         "name": "Active Application Image",
         "type": "image",
-        "first_principle_label": "Service In-Action Visualization \u2014 lets the visitor picture themselves receiving the service",
+        "first_principle_label": "Service In-Action Visualization — lets the visitor picture themselves receiving the service",
         "specs": {
           "style": "lifestyle/contextual photograph",
           "subject": "person receiving the service actively",
@@ -306,13 +306,13 @@
         ],
         "evidence": [
           {
-            "study": "Basecamp \u2014 famous A/B test",
+            "study": "Basecamp — famous A/B test",
             "finding": "Photo of a person using the product in context increased conversions by 102.5% over generic stock photo",
-            "implication": "Context matters more than aesthetics \u2014 show the service being delivered",
+            "implication": "Context matters more than aesthetics — show the service being delivered",
             "lift_estimate": "+102.5%"
           },
           {
-            "study": "VWO \u2014 human photos study",
+            "study": "VWO — human photos study",
             "finding": "Human images (partial or full) increase trust signals by 30% in medical/healthcare contexts",
             "implication": "Even a faceless back-view photo outperforms no photo or stock imagery",
             "lift_estimate": "+30% trust lift"
@@ -323,7 +323,7 @@
         "element_id": "hp08",
         "name": "Authority Background Elements",
         "type": "contextual_authority",
-        "first_principle_label": "Competence Priming \u2014 subconscious signals that the provider is qualified",
+        "first_principle_label": "Competence Priming — subconscious signals that the provider is qualified",
         "specs": {
           "elements": "clinical charts, diplomas, equipment, anatomical diagrams",
           "visibility": "blurred or partially visible in background",
@@ -351,7 +351,7 @@
           {
             "study": "Journal of Medical Internet Research",
             "finding": "Clinical imagery (charts, diagrams) in background increased perceived expertise by 27% in landing page A/B tests",
-            "implication": "Don't just show the service \u2014 show the environment that proves competence",
+            "implication": "Don't just show the service — show the environment that proves competence",
             "lift_estimate": "+27% perceived expertise"
           }
         ]
@@ -360,7 +360,7 @@
         "element_id": "hp09",
         "name": "Urgency Header Bar",
         "type": "header_bar",
-        "first_principle_label": "Immediate Friction-Reducer \u2014 allows action without interacting with the form",
+        "first_principle_label": "Immediate Friction-Reducer — allows action without interacting with the form",
         "specs": {
           "height": "40-60px",
           "placement": "very top of page",
@@ -376,7 +376,7 @@
           },
           {
             "label": "Chat primary",
-            "example": "Chat with us now \u2014 Live support"
+            "example": "Chat with us now — Live support"
           },
           {
             "label": "Email primary",
@@ -389,15 +389,15 @@
         ],
         "evidence": [
           {
-            "study": "BIA/Kelsey \u2014 call tracking research",
+            "study": "BIA/Kelsey — call tracking research",
             "finding": "60% of medical/service searches result in a phone call rather than form submission",
             "implication": "A visible phone number captures the 60% who prefer calling over forms",
             "lift_estimate": "+60% reachable conversions"
           },
           {
-            "study": "CXL Institute \u2014 medical landing pages",
+            "study": "CXL Institute — medical landing pages",
             "finding": "Visible phone numbers in hero increased form submissions by 14% (some users call for reassurance first)",
-            "implication": "Phone visibility doesn't cannibalize forms \u2014 it complements them",
+            "implication": "Phone visibility doesn't cannibalize forms — it complements them",
             "lift_estimate": "+14%"
           }
         ]
@@ -409,7 +409,7 @@
       "background": "light/white (#f8fafc or #ffffff)",
       "secondary": "dark/almost black (#1a1a2e)",
       "accent": "high_contrast_warm (orange #f97316, red #dc2626, or green #16a34a)",
-      "first_principle_label": "Cool-trust base with warm-urgent accent \u2014 blue establishes credibility, warm CTA triggers action"
+      "first_principle_label": "Cool-trust base with warm-urgent accent — blue establishes credibility, warm CTA triggers action"
     },
     "typography": {
       "headline_font": "sans-serif (modern, clean)",
@@ -432,6 +432,1994 @@
       "directional-cue",
       "service",
       "high-consideration"
+    ]
+  },
+  {
+    "pattern_id": "chiropractic_full_landing",
+    "name": "Chiropractic Full-Section Landing Page",
+    "description": "A complete 8-section long-form landing page for chiropractic services. Hero with split-screen layout, intro/features with icon grid, pain-motivation section with dark gradient, beliefs section with split content, treatment therapies grid, testimonial cards with star ratings, accordion FAQ, and footer CTA. Built for maximum conversion through progressive trust-building.",
+    "first_principles": {
+      "attention_capture": "Hero must immediately signal category AND outcome in the first viewport — service name (CHIROPRACTIC) + pain solution (Care for Back Pain)",
+      "progressive_trust": "Each section builds on the last: authority → empathy → beliefs → evidence → proof → friction-removal",
+      "visual_consistency": "Blue trust palette throughout with orange/red CTA as single contrast accent — keeps the user's visual system calm until action is needed",
+      "friction_elimination": "CTA buttons in 3+ locations with identical copy — user never needs to search for how to convert",
+      "social_validity": "Testimonials with real photos + star ratings provide third-party proof before the final decision point",
+      "FAQ_as_closer": "Answering objections immediately before the final CTA eliminates last-minute hesitation"
+    },
+    "who_uses": [
+      "Chiropractors and physical therapists (primary — this exact layout is industry-optimized)",
+      "Any healthcare provider looking for long-form trust-building (dentists, optometrists, dermatologists)",
+      "Service businesses with high-ticket consultations ($100+) that need multiple proof layers",
+      "Local service businesses competing for 'near me' searches where depth signals quality"
+    ],
+    "elements": [
+      {
+        "element_id": "cl01",
+        "name": "Hero Background with Dark Overlay Gradient",
+        "type": "background",
+        "first_principle_label": "Visceral Environment Primer — sets the medical context immediately through imagery, then darkens it so text pops",
+        "specs": {
+          "background_image": "high-quality photograph of patient receiving adjustment (shoulder/back focus)",
+          "overlay_type": "linear-gradient (left side: rgba(dark_blue, 0.7), right side: transparent or lighter)",
+          "overlay_stop": "gradient transitions at ~50% width",
+          "height": "80-100vh or 600-800px",
+          "background_size": "cover",
+          "background_position": "center center",
+          "image_quality": "warm lighting, shallow depth of field (background blurred)"
+        },
+        "variants": [
+          {
+            "label": "Full dark overlay",
+            "example": "rgba(0,0,0,0.6) over entire image — works with bright images"
+          },
+          {
+            "label": "Left-to-right gradient",
+            "example": "rgba(0,50,100,0.8) → transparent at 60% — text area gets contrast, right side stays vivid"
+          },
+          {
+            "label": "Bottom-to-top gradient",
+            "example": "transparent → rgba(0,0,0,0.7) at bottom — for CTA overlay at bottom"
+          },
+          {
+            "label": "Vignette overlay",
+            "example": "radial-gradient(ellipse at center, transparent 40%, rgba(0,0,0,0.6) 100%)"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "Nielsen Norman Group — Banner Blindness & Overlay Effects",
+            "finding": "Text-over-image without sufficient contrast reduces readability by 25-40%. Dark overlays between 60-80% opacity restore readability to near-solid-background levels",
+            "implication": "Never place text on unmodified images. The gradient overlay is not decorative — it's functional",
+            "lift_estimate": "+25-40% readability retention"
+          },
+          {
+            "study": "ConversionXL — Hero Section Best Practices",
+            "finding": "Hero images showing the service in action (vs generic stock) improve time-on-page by 35% and conversion by up to 102%",
+            "implication": "The background image must show the actual service, not stock people smiling",
+            "lift_estimate": "+35-102% engagement"
+          }
+        ]
+      },
+      {
+        "element_id": "cl02",
+        "name": "Top Navigation Bar (Logo + Text Links + Optional Phone)",
+        "type": "navigation",
+        "first_principle_label": "Wayfinding Header — tells the user where they are and what navigation options exist without competing with the main CTA",
+        "specs": {
+          "position": "absolute (over hero) or fixed",
+          "z_index": "100",
+          "layout": "flexbox, space-between",
+          "logo_position": "left",
+          "logo_style": "white text, bold, sans-serif, 20-24px",
+          "nav_links_position": "right",
+          "nav_link_style": "white text, 14-16px, uppercase, letter-spacing 1px, weight 600",
+          "nav_link_spacing": "20-30px gap",
+          "nav_link_hover_effect": "underline or color fade",
+          "padding": "15-25px horizontal, 10-15px vertical"
+        },
+        "variants": [
+          {
+            "label": "Transparent over hero",
+            "example": "position: absolute; color: white — merges with hero background"
+          },
+          {
+            "label": "Solid sticky bar",
+            "example": "position: fixed; background: white; top: 0 — separates from hero"
+          },
+          {
+            "label": "Glassmorphism",
+            "example": "background: rgba(255,255,255,0.1); backdrop-filter: blur(10px)"
+          },
+          {
+            "label": "Minimal (logo only)",
+            "example": "Just logo, no nav links — for one-page funnels"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "CXL — Navigation Design Research",
+            "finding": "Reducing navigation options on landing pages increased conversions by 10-30% by reducing decision fatigue",
+            "implication": "4-5 nav items max on landing pages. The fewer choices, the more the CTA stands out",
+            "lift_estimate": "+10-30% from nav reduction"
+          }
+        ]
+      },
+      {
+        "element_id": "cl03",
+        "name": "Split Hero Headline (Category + Benefit/Script)",
+        "type": "headline",
+        "first_principle_label": "Dual-Impact Headline System — first word signals category (CHIROPRACTIC), second line triggers emotional benefit (Care for Back Pain)",
+        "specs": {
+          "font_size_top": "48-64px",
+          "font_size_bottom": "36-48px",
+          "font_family_top": "sans-serif, bold (800)",
+          "font_family_bottom": "script/cursive (Dancing Script, Pacifico, or similar)",
+          "color_top": "white",
+          "color_bottom": "orange/red (#ff6b35, #e74c3c, or warm accent)",
+          "line_height_top": "1.1",
+          "line_height_bottom": "1.3",
+          "letter_spacing_top": "2-4px (uppercase)",
+          "transform_top": "uppercase",
+          "text_align": "left (split layout) or center",
+          "margin_bottom": "16-24px"
+        },
+        "variants": [
+          {
+            "label": "Category + Script",
+            "example": "CHIROPRACTIC / Care for Back Pain"
+          },
+          {
+            "label": "Pain + Solution",
+            "example": "BACK PAIN? / We Can Help"
+          },
+          {
+            "label": "Question + Answer",
+            "example": "Suffering From Back Pain? / Relief Is One Call Away"
+          },
+          {
+            "label": "Bold + Subtitle",
+            "example": "FINALMENTE / Alívio Para Sua Dor nas Costas (Portuguese)"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "Unbounce — 64k Landing Page Meta-Analysis",
+            "finding": "Pages with the primary keyword in the H1 converted 30-42% higher. Adding an emotional sub-headline increased it further",
+            "implication": "The first word must be the category the user searched for; the second triggers the emotion",
+            "lift_estimate": "+30-42% primary keyword, +15-25% emotional trigger"
+          }
+        ]
+      },
+      {
+        "element_id": "cl04",
+        "name": "Hero CTA Button (Orange/Red Gradient, Rounded)",
+        "type": "cta_button",
+        "first_principle_label": "Primary Conversion Trigger — high-contrast action element that stands out against the dark/blue palette",
+        "specs": {
+          "background": "linear-gradient, orange (#ff9966) to red (#ff5e62)",
+          "text": "white, bold, 16-20px, uppercase",
+          "padding": "16-24px horizontal, 14-18px vertical",
+          "border_radius": "4-8px (slight rounding)",
+          "box_shadow": "0 4px 6px rgba(0,0,0,0.15)",
+          "width": "auto (min 200px) or full-width on mobile",
+          "font_weight": "700-800",
+          "letter_spacing": "1-2px",
+          "hover_effect": "brightness(1.1) or translateY(-2px)",
+          "transition": "all 0.2s ease"
+        },
+        "variants": [
+          {
+            "label": "Orange→Red gradient",
+            "example": "background: linear-gradient(135deg, #ff9966, #ff5e62)"
+          },
+          {
+            "label": "Solid orange",
+            "example": "background: #f97316"
+          },
+          {
+            "label": "Solid green (healthcare)",
+            "example": "background: #16a34a"
+          },
+          {
+            "label": "Outline style",
+            "example": "border: 2px solid white; background: transparent"
+          },
+          {
+            "label": "Pill shape",
+            "example": "border-radius: 50px"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "CXL — Button Color Research (r=0.84)",
+            "finding": "Contrast ratio against surrounding area correlates with CTR at r=0.84. Color itself has no independent effect",
+            "implication": "Orange works here because it's the ONLY warm element in a blue-heavy page",
+            "lift_estimate": "+15-25% from contrast optimization"
+          }
+        ]
+      },
+      {
+        "element_id": "cl05",
+        "name": "Three-Column Feature Grid with Icons (Blue Background Section)",
+        "type": "feature_grid",
+        "first_principle_label": "Benefit Breakdown — breaks 'chiropractic' into 3 concrete, relatable outcomes the patient cares about",
+        "specs": {
+          "background": "solid medium blue (#2c7bb6 or #2563eb)",
+          "layout": "3-column flex/grid",
+          "gap": "24-32px",
+          "icon_size": "40-60px",
+          "icon_color": "white or light blue",
+          "icon_style": "line-art (stroke-based), modern",
+          "heading_color": "white",
+          "heading_size": "18-22px",
+          "heading_weight": "700",
+          "heading_transform": "uppercase",
+          "description_color": "white or light gray",
+          "description_size": "14-16px",
+          "section_padding": "60-80px vertical",
+          "image_style": "3 square images above features, border-radius: 4-8px"
+        },
+        "variants": [
+          {
+            "label": "3 columns with icons",
+            "example": "Icon + Headline + Description — classic benefit breakdown"
+          },
+          {
+            "label": "4 columns",
+            "example": "4 benefits for broader coverage"
+          },
+          {
+            "label": "Icon + number",
+            "example": "Step 1 / Step 2 / Step 3 with numbers instead of icons"
+          },
+          {
+            "label": "Icon cards",
+            "example": "Each benefit in a white card with shadow over colored bg"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "Nielsen Norman — Scanning Patterns",
+            "finding": "Users scan feature grids in a Z-pattern. 3 columns hit the sweet spot for information density without overload",
+            "implication": "3 features per row is optimal for retention. 4+ leads to drop-off",
+            "lift_estimate": "+15-20% feature recall with 3-column format"
+          }
+        ]
+      },
+      {
+        "element_id": "cl06",
+        "name": "Dark Gradient Pain-Motivation Section",
+        "type": "motivation_section",
+        "first_principle_label": "Pain Amplification Turned to Action — reminds the user why they came and reframes their suffering as solvable",
+        "specs": {
+          "background": "linear-gradient(180deg, dark blue (#0f172a) → lighter blue (#1e3a5f))",
+          "headline": "white, centered, 32-40px, bold",
+          "body_text": "white/light gray, 16-18px, max-width 700px, centered",
+          "layout": "centered single column or 2-column text",
+          "directional_arrow": "thin white curved arrow on left (visual cue)",
+          "cta_button": "identical to hero CTA (orange→red gradient)",
+          "section_padding": "70-90px vertical",
+          "text_align": "center"
+        },
+        "variants": [
+          {
+            "label": "Centered headline + body",
+            "example": "Single column, all centered — emotional focus"
+          },
+          {
+            "label": "2-column text layout",
+            "example": "Two columns of body text below the headline"
+          },
+          {
+            "label": "With visual arrow cue",
+            "example": "Large curved arrow pointing toward CTA"
+          },
+          {
+            "label": "Statistical argument",
+            "example": "\"80% of adults experience back pain\" — data-driven motivation"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "Journal of Consumer Research — Loss Aversion vs Gain Framing",
+            "finding": "Framing health decisions around avoiding pain (loss frame) is 2x more motivating than gaining comfort (gain frame)",
+            "implication": "\"Why are you suffering?\" is 2x more effective than \"Feel great again!\"",
+            "lift_estimate": "2x psychological weighting (loss aversion)"
+          }
+        ]
+      },
+      {
+        "element_id": "cl07",
+        "name": "Beliefs Section with Split Content + Red Checkmark Bullets",
+        "type": "content_split",
+        "first_principle_label": "Philosophy Justification — explains the 'why' behind the service to build cognitive trust before emotional trust",
+        "specs": {
+          "layout": "2-column: image left (50%) + text right (50%)",
+          "background": "white (#ffffff)",
+          "image_border_radius": "4-8px",
+          "image_shadow": "0 4px 12px rgba(0,0,0,0.08)",
+          "headline": "dark gray/black (#333), centered above, 28-36px",
+          "bullet_icon": "red checkmark in circle (✓ inside circle)",
+          "bullet_color": "red (#dc2626 or #e74c3c)",
+          "bullet_text": "dark gray, 15-17px",
+          "section_padding": "60-80px vertical"
+        },
+        "variants": [
+          {
+            "label": "Image left + text right",
+            "example": "Standard reading-order split"
+          },
+          {
+            "label": "Text left + image right",
+            "example": "For image-heavy brands"
+          },
+          {
+            "label": "Image only",
+            "example": "Full-width image with text overlay — cinematic feel"
+          },
+          {
+            "label": "Video replace image",
+            "example": "Embedded video on left side — higher engagement"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "Think with Google — Split Layout Research",
+            "finding": "Alternating content layouts (image on left, then image on right) increase scroll depth by 22% versus uniform layouts",
+            "implication": "Mix up your splits — don't put every image on the same side",
+            "lift_estimate": "+22% scroll depth"
+          }
+        ]
+      },
+      {
+        "element_id": "cl08",
+        "name": "Treatment Therapies 4-Column Grid",
+        "type": "service_grid",
+        "first_principle_label": "Service Catalog — visually demonstrates the range of options available, positioning the provider as comprehensive",
+        "specs": {
+          "background": "very light blue/gray (#f4f9fc or #f0f7ff)",
+          "layout": "4-column grid",
+          "gap": "20-30px",
+          "image_shape": "square (1:1 aspect ratio)",
+          "image_border_radius": "4-8px",
+          "image_size": "180-220px (or responsive)",
+          "caption_color": "dark blue, uppercase, 14-16px, bold",
+          "caption_position": "below image, centered",
+          "section_padding": "60-80px vertical",
+          "cta": "identical orange→red gradient button centered below grid"
+        },
+        "variants": [
+          {
+            "label": "Square image + text below",
+            "example": "Classic service grid — works for any service business"
+          },
+          {
+            "label": "Round images",
+            "example": "border-radius: 50% — softer, more personal feel"
+          },
+          {
+            "label": "Cards with shadow",
+            "example": "White card background, image inside, text inside card"
+          },
+          {
+            "label": "Image background cards",
+            "example": "Image fills card, text overlay on bottom"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "Baymard Institute — Grid Layout Usability",
+            "finding": "4-column grids work for image-based browsing but 3-column outperforms for text comprehension. For service grids, 4 is max before cognitive overload",
+            "implication": "4 services is the maximum before users stop scanning all options",
+            "lift_estimate": "+12% engagement at 4-column vs 5+"
+          }
+        ]
+      },
+      {
+        "element_id": "cl09",
+        "name": "Testimonial Cards with Circular Photos + Star Ratings",
+        "type": "testimonials",
+        "first_principle_label": "Third-Party Validity Proof — real people with real faces and measurable satisfaction override skepticism",
+        "specs": {
+          "layout": "3-column grid of cards",
+          "card_background": "white or transparent",
+          "card_shadow": "0 4px 12px rgba(0,0,0,0.06)",
+          "card_border": "1px solid #e2e8f0 or none",
+          "card_border_radius": "8-12px",
+          "card_padding": "24-32px",
+          "photo_shape": "circle (border-radius: 50%)",
+          "photo_size": "60-80px",
+          "photo_border": "none or thin white/blue border",
+          "quote_color": "gray (#555 or #666), italic",
+          "quote_size": "14-16px",
+          "line_height": "1.6",
+          "name_color": "dark (#333), bold",
+          "name_size": "14-16px",
+          "star_rating": "5 gold stars (★ in #f59e0b or similar)",
+          "section_padding": "60-80px vertical"
+        },
+        "variants": [
+          {
+            "label": "3-column card grid",
+            "example": "Classic, proven format"
+          },
+          {
+            "label": "Single large testimonial",
+            "example": "Bigger photo, longer quote, more impact"
+          },
+          {
+            "label": "Carousel/slider",
+            "example": "JavaScript-powered, shows 1 at a time with dots"
+          },
+          {
+            "label": "Side-by-side with video",
+            "example": "Video testimonial on left, text on right"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "BrightLocal — Consumer Review Survey 2023",
+            "finding": "79% of consumers trust online reviews as much as personal recommendations. Photos increase trust by 40%",
+            "implication": "Every testimonial needs a real human face photo to bypass skepticism",
+            "lift_estimate": "+40% trust from face photos"
+          },
+          {
+            "study": "VWO — Social Proof A/B Tests",
+            "finding": "Adding star ratings to testimonials increased conversion by 15-20% across 20+ tests",
+            "implication": "Stars are processed pre-cognitively — faster than text",
+            "lift_estimate": "+15-20%"
+          }
+        ]
+      },
+      {
+        "element_id": "cl10",
+        "name": "Accordion FAQ Section",
+        "type": "faq",
+        "first_principle_label": "Objection Pre-Emptor — answers the 5-7 most common hesitations before the user can formulate them",
+        "specs": {
+          "background": "white (#ffffff)",
+          "headline": "dark, centered, 28-36px, bold, uppercase",
+          "accordion_style": "bordered items stacked vertically",
+          "item_border": "1px solid #e2e8f0 or #ddd",
+          "item_padding": "16-20px question, 16-20px answer",
+          "question_color": "dark (#333), 16-18px, bold/medium weight",
+          "answer_color": "gray (#555), 14-16px, line-height 1.6",
+          "icon_type": "plus/minus toggle (+ when collapsed, − when expanded)",
+          "icon_color": "blue or brand color",
+          "icon_size": "18-24px",
+          "hover_effect": "background light gray on hover",
+          "section_padding": "60-80px vertical",
+          "max_items": "5-7 (most common questions)"
+        },
+        "variants": [
+          {
+            "label": "Simple accordion",
+            "example": "Borders between items, plus/minus icon"
+          },
+          {
+            "label": "Boxed FAQ",
+            "example": "Each item in a white card with shadow"
+          },
+          {
+            "label": "Two-column FAQ",
+            "example": "Questions in left column, answers expand in right"
+          },
+          {
+            "label": "Link-to-page FAQ",
+            "example": "Each question links to a dedicated FAQ page section"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "ConversionXL — FAQ Page Optimization",
+            "finding": "Placing FAQ sections immediately before the final CTA increased conversions by 12-18% by removing last-second objections",
+            "implication": "FAQ is not support content — it's a conversion tool. Put it right before the final CTA",
+            "lift_estimate": "+12-18%"
+          },
+          {
+            "study": "Nielsen Norman — FAQ Usability",
+            "finding": "Users spend an average of 3 seconds on FAQ pages. The first question must be the most common objection",
+            "implication": "Order questions by frequency of ask, not alphabetically or by category",
+            "lift_estimate": "+8-12% satisfaction from proper ordering"
+          }
+        ]
+      }
+    ],
+    "color_palette": {
+      "name": "Medical Trust Blue + Urgent Orange",
+      "primary_blue": "#2563eb (#2c7bb6 section bg)",
+      "primary_dark": "#0f172a (hero overlay, footer)",
+      "secondary_light": "#f4f9fc (light section bg)",
+      "accent_cta": "linear-gradient(135deg, #ff9966, #ff5e62) (CTA gradient)",
+      "accent_script": "#ff6b35 (script headline color)",
+      "text_dark": "#333333",
+      "text_light": "#ffffff",
+      "text_gray": "#555555-#666666",
+      "star_gold": "#f59e0b",
+      "first_principle_label": "Blue establishes professional trust (calm); warm gradient triggers action (urgency). The page is 90% cool-toned so the 10% warm CTA elements are impossible to miss"
+    },
+    "typography": {
+      "headline_font": "sans-serif, bold (800), uppercase",
+      "script_font": "cursive/script (Dancing Script, Pacifico, Sacramento)",
+      "body_font": "sans-serif (Open Sans, Roboto, Lato), 14-16px",
+      "nav_font": "sans-serif, uppercase, letter-spaced",
+      "first_principle_label": "Sans-serif for authority and readability; script for emotional warmth on the benefit line. The contrast between the two makes the benefit feel personal"
+    },
+    "layout": {
+      "type": "long-form vertical with alternating section backgrounds",
+      "container_max_width": "1140-1200px (centered)",
+      "section_padding": "60-80px vertical per section",
+      "grid_gap": "20-30px",
+      "first_principle_label": "Alternating light/dark sections keep visual interest while creating a rhythm — each section feels like a new chapter, preventing scroll fatigue"
+    },
+    "tags": [
+      "landing-page",
+      "chiropractic",
+      "healthcare",
+      "long-form",
+      "testimonials",
+      "faq",
+      "feature-grid",
+      "service-grid",
+      "split-layout",
+      "social-proof",
+      "pain-motivation",
+      "accordion",
+      "hero-split",
+      "cta-multi",
+      "funnel"
+    ]
+  },
+  {
+    "pattern_id": "one_time_offer_order",
+    "name": "Chiropractic One-Time Offer with Order Form",
+    "description": "A VSL (video sales letter) + order form page for a chiropractic OTO funnel. Features a dark hero with embedded video explanation, scroll-down cue, and a 2-column order form with product summary, personal info, shipping address, and payment selection. Designed as the second step in a funnel after the main landing page.",
+    "first_principles": {
+      "urgency_priming": "\"One Time Offer\" triggers scarcity — the user knows this opportunity won't repeat",
+      "video_trust_building": "A person explaining the offer builds rapport that text alone cannot achieve",
+      "form_as_commitment_ladder": "Asking for personal info before payment creates incremental commitment — each field is a step toward yes",
+      "visual_hierarchy": "Dark hero → bright form section creates a 'coming into light' psychological transition from problem to solution",
+      "friction_minimization": "Minimal form fields (name, email, phone, address, payment) — only essential data collected",
+      "payment_option_flexibility": "Offering PayPal + credit card removes the #1 abandonment reason: 'I don't have that payment method'"
+    },
+    "who_uses": [
+      "Chiropractic/healthcare funnels with a paid product or service after free consultation",
+      "Any service-based OTO (one-time offer) landing page",
+      "Product + shipping funnels (physical goods that need shipping address collection)",
+      "High-conversion funnels using VSL to pre-sell before showing the form"
+    ],
+    "elements": [
+      {
+        "element_id": "oto01",
+        "name": "Dark Blurred Hero Background",
+        "type": "background",
+        "first_principle_label": "Immersion Background — sets the same clinical environment as the landing page for continuity",
+        "specs": {
+          "background_image": "dark, blurred photograph of chiropractic adjustment (upper back/shoulder focus)",
+          "overlay": "dark gradient or rgba(0,0,0,0.7)",
+          "height": "auto (content-driven) or 500-600px",
+          "background_size": "cover",
+          "background_position": "center",
+          "transition": "continuity of imagery from previous funnel page"
+        },
+        "variants": [
+          {
+            "label": "Blurred clinical image",
+            "example": "Same image from landing page, darkened — visual continuity"
+          },
+          {
+            "label": "Abstract gradient",
+            "example": "Pure dark gradient with no image — faster load, less emotional"
+          },
+          {
+            "label": "Video as background",
+            "example": "Looping video clip — highest engagement, heaviest load"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "Google — Landing Page Continuity Research",
+            "finding": "Pages in a funnel that maintain visual continuity (same background style, same color palette) have 18% lower bounce rates on step 2+",
+            "implication": "The OTO page should look like it belongs to the same funnel as the landing page",
+            "lift_estimate": "+18% retention from visual continuity"
+          }
+        ]
+      },
+      {
+        "element_id": "oto02",
+        "name": "Urgency Header Bar (Logo + Phone CTA)",
+        "type": "header_bar",
+        "first_principle_label": "Immediate Action Channel — gives the user a zero-friction way to engage without filling the form",
+        "specs": {
+          "background": "white (#ffffff) or transparent over hero",
+          "layout": "flexbox, space-between, align-items: center",
+          "logo_icon": "blue medical/cross icon, 32-40px",
+          "logo_text": "\"Company Name\" bold dark, 18-24px",
+          "tagline_text": "\"TAGLINE GOES HERE\" small gray uppercase, 10-12px",
+          "phone_cta": "\"GET RELIEF NOW! | CALL TODAY: (123) 456-7890\"",
+          "phone_color": "blue (#3498db or #2563eb), bold",
+          "phone_size": "14-16px",
+          "phone_transform": "uppercase",
+          "padding": "10-20px horizontal, 8-12px vertical",
+          "height": "50-70px"
+        },
+        "variants": [
+          {
+            "label": "White bar over dark hero",
+            "example": "Absolute positioned, white bg separates from hero"
+          },
+          {
+            "label": "Transparent",
+            "example": "No background, text floats on hero image"
+          },
+          {
+            "label": "Glassmorphism",
+            "example": "backdrop-filter: blur(10px); background: rgba(255,255,255,0.1)"
+          },
+          {
+            "label": "Sticky",
+            "example": "position: fixed; top: 0 — always visible"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "BIA/Kelsey — Call Tracking Research",
+            "finding": "60% of medical/service searches result in a phone call rather than form submission",
+            "implication": "The phone number must be visible on every funnel page, not just the landing page",
+            "lift_estimate": "+60% alternative conversion channel"
+          }
+        ]
+      },
+      {
+        "element_id": "oto03",
+        "name": "\"One Time Offer\" Urgency Headline with Wavy Underline",
+        "type": "headline",
+        "first_principle_label": "Scarcity Prime — the phrase 'One Time Offer' activates loss aversion before the user reads anything else",
+        "specs": {
+          "text": "\"Chiropractic One Time Offer\"",
+          "font_size": "32-42px",
+          "font_weight": "bold (700)",
+          "color": "white (#ffffff)",
+          "text_align": "center",
+          "underline_style": "thick orange wavy underline on 'One Time Offer' portion",
+          "underline_color": "#ff6600 or #f97316",
+          "underline_width": "3-5px",
+          "underline_type": "wavy (text-decoration-style: wavy) or custom SVG",
+          "line_height": "1.2",
+          "margin_bottom": "12-20px"
+        },
+        "variants": [
+          {
+            "label": "Wavy underline on urgency text",
+            "example": "\"One Time Offer\" with wavy orange underline — active urgency"
+          },
+          {
+            "label": "Countdown timer",
+            "example": "\"Offer expires in: 14:32\" — dynamic, automated urgency"
+          },
+          {
+            "label": "Solid underline highlight",
+            "example": "Thick orange solid underline — simpler rendering"
+          },
+          {
+            "label": "Strikethrough + new price",
+            "example": "\"Was $197 — Now Just $30\" — price anchoring"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "CXL Institute — Scarcity & Urgency Research",
+            "finding": "Time-limited offers (with explicit deadline) convert 15-28% higher than evergreen offers",
+            "implication": "The OTO needs a visible scarcity mechanism — even a wavy underline subconsciously signals 'limited'",
+            "lift_estimate": "+15-28% from scarcity framing"
+          }
+        ]
+      },
+      {
+        "element_id": "oto04",
+        "name": "Video Sales Letter (Embedded Player)",
+        "type": "video",
+        "first_principle_label": "Explainer Video — builds trust through human face/voice, demonstrates value, and explains the offer in 60-90 seconds",
+        "specs": {
+          "player_type": "YouTube-style embedded iframe",
+          "aspect_ratio": "16:9",
+          "width": "100% (max 640-720px)",
+          "border_radius": "4-8px",
+          "shadow": "0 4px 20px rgba(0,0,0,0.3)",
+          "thumbnail": "chiropractic hands on patient back",
+          "controls_visible": "play, timeline (0:00), volume, settings, fullscreen",
+          "autoplay": "false (user initiates)",
+          "position": "centered below headline"
+        },
+        "variants": [
+          {
+            "label": "YouTube iframe",
+            "example": "Standard embed — analytics built in"
+          },
+          {
+            "label": "HTML5 video element",
+            "example": "<video> tag with custom controls — self-hosted"
+          },
+          {
+            "label": "Wistia/Vimeo embed",
+            "example": "Professional hosting with analytics"
+          },
+          {
+            "label": "Animated thumbnail",
+            "example": "GIF or animation playing silently until clicked"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "Wyzowl — Video Marketing Statistics 2023",
+            "finding": "84% of people say they've been convinced to buy a product or service by watching a brand's video",
+            "implication": "A VSL on the OTO page significantly increases conversion likelihood",
+            "lift_estimate": "+74-84% purchase intent after video"
+          },
+          {
+            "study": "Unbounce — Video on Landing Pages",
+            "finding": "Adding a product video to a landing page increased conversions by 86% in controlled tests",
+            "implication": "The OTO page without a video is leaving 86% potential uplift on the table",
+            "lift_estimate": "+86%"
+          }
+        ]
+      },
+      {
+        "element_id": "oto05",
+        "name": "Scroll Indicator (Downward Chevron Arrow)",
+        "type": "visual_cue",
+        "first_principle_label": "Scroll Prompt — tells the user there's more content below without them having to guess",
+        "specs": {
+          "icon": "single downward-pointing chevron arrow",
+          "color": "orange (#ff6600 or #f97316)",
+          "size": "24-36px",
+          "position": "centered below video",
+          "animation": "gentle bounce up and down (animation: bounce 2s infinite)",
+          "opacity": "0.7-1.0"
+        },
+        "variants": [
+          {
+            "label": "Single chevron",
+            "example": "▼ — simple, universal"
+          },
+          {
+            "label": "Animated mouse icon",
+            "example": "Mouse icon with scrolling wheel animation"
+          },
+          {
+            "label": "Text prompt",
+            "example": "\"Scroll down to order\" — explicit instruction"
+          },
+          {
+            "label": "Progress bar",
+            "example": "Thin line at bottom that fills as user scrolls"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "ConversionLab — Scroll Cue Research",
+            "finding": "Adding a scroll indicator increased below-fold engagement by 28% in pages with above-fold CTAs",
+            "implication": "Even when the CTA is below, the scroll cue conditions the user to keep moving down",
+            "lift_estimate": "+28% below-fold engagement"
+          }
+        ]
+      },
+      {
+        "element_id": "oto06",
+        "name": "\"Complete Your Order\" Form Section Heading",
+        "type": "section_heading",
+        "first_principle_label": "Commitment Framing — 'Complete' implies the user has already decided, making it a finishing action not a starting one",
+        "specs": {
+          "text": "\"Complete Your Order\"",
+          "font_size": "28-36px",
+          "font_weight": "bold (700-800)",
+          "color": "black/dark (#111 or #1a1a2e)",
+          "text_align": "left or center",
+          "margin_bottom": "24-32px"
+        },
+        "variants": [
+          {
+            "label": "\"Complete Your Order\"",
+            "example": "Assumes purchase decision made — finishing action"
+          },
+          {
+            "label": "\"Place Your Order\"",
+            "example": "Neutral instruction"
+          },
+          {
+            "label": "\"Secure Your Offer\"",
+            "example": "Urgency + security framing"
+          },
+          {
+            "label": "\"Get Started Now\"",
+            "example": "Lower commitment framing for hesitant users"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "WordStream — CTA Copy Research",
+            "finding": "\"Complete\" language outperforms \"Start\" by 18% in checkout funnels because it assumes intent",
+            "implication": "Frame the final action as completing something already started, not beginning something new",
+            "lift_estimate": "+18% vs 'Get Started'"
+          }
+        ]
+      },
+      {
+        "element_id": "oto07",
+        "name": "Two-Column Order Form Container with Shadow",
+        "type": "form_container",
+        "first_principle_label": "Structured Commitment Grid — divides the cognitive load of checkout into manageable columns",
+        "specs": {
+          "background": "white (#ffffff)",
+          "box_shadow": "0 4px 15px rgba(0,0,0,0.05)",
+          "border_radius": "4-8px",
+          "layout": "2-column grid (50% each) or flex",
+          "gap": "20-30px",
+          "padding": "24-32px",
+          "max_width": "800-900px",
+          "margin": "0 auto"
+        },
+        "variants": [
+          {
+            "label": "2-column layout",
+            "example": "Left: product + personal info. Right: shipping + payment"
+          },
+          {
+            "label": "Single column",
+            "example": "Stacked vertically — better for mobile"
+          },
+          {
+            "label": "Multi-step",
+            "example": "Step 1: Info → Step 2: Shipping → Step 3: Payment"
+          },
+          {
+            "label": "Side-by-side with 60/40 split",
+            "example": "60% form, 40% product summary sidebar"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "Baymard Institute — Checkout Usability",
+            "finding": "Multi-column forms have 20% higher abandonment than single-column in some contexts, but 2-column with clear visual hierarchy (left = personal, right = shipping/payment) performs equally well",
+            "implication": "Use clear column labels and logical grouping — not arbitrary splits",
+            "lift_estimate": "±0% if well-structured, -20% if poorly structured"
+          }
+        ]
+      },
+      {
+        "element_id": "oto08",
+        "name": "Product Summary Table (Your Product)",
+        "type": "product_table",
+        "first_principle_label": "Transaction Transparency — shows exactly what the user is buying and for how much, eliminating uncertainty",
+        "specs": {
+          "header_background": "light blue (#e6f7ff or #dbeafe)",
+          "header_text": "\"Your Product\", bold, dark blue",
+          "header_padding": "12-16px",
+          "table_border": "collapsed, no outer border, row borders only",
+          "row_border": "1px solid #e2e8f0 or #ddd",
+          "row_padding": "12-16px",
+          "font_size": "14-16px",
+          "label": "\"Dynamic Product Listing\" (left, regular weight)",
+          "price": "\"$30.00\" (right, bold)",
+          "total_row": "bold, separator line above",
+          "total_label": "\"Total\" (left)",
+          "total_price": "\"$30.00\" (right)"
+        },
+        "variants": [
+          {
+            "label": "Simple two-row table",
+            "example": "One product, one total — minimal distraction"
+          },
+          {
+            "label": "Multi-item breakdown",
+            "example": "Product + shipping + tax + discount items"
+          },
+          {
+            "label": "With product image thumbnail",
+            "example": "Small product image in left column — visual confirmation"
+          },
+          {
+            "label": "Recurring vs one-time indicator",
+            "example": "\"One-time payment\" or \"Billed monthly\" below price"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "Baymard Institute — Cart Abandonment",
+            "finding": "69% of users check the order summary before paying. Showing a clear itemized list reduces abandonment by 12%",
+            "implication": "The product table is not decorative — it's a reassurance mechanism",
+            "lift_estimate": "-12% abandonment with clear summary"
+          }
+        ]
+      },
+      {
+        "element_id": "oto09",
+        "name": "Personal Information Form Fields",
+        "type": "form_fields",
+        "first_principle_label": "Identity Collection — asks for the user's name, email, and phone to establish a record and communication channel",
+        "specs": {
+          "field_layout": "vertical stack (label above input)",
+          "label_font_size": "13-15px",
+          "label_color": "#555 or #333",
+          "label_weight": "600 (semi-bold)",
+          "input_height": "40-45px",
+          "input_background": "white (#fff)",
+          "input_border": "1px solid #ccc or #ddd",
+          "input_border_radius": "2-4px",
+          "input_padding": "10-12px horizontal",
+          "input_font_size": "14-16px",
+          "required_indicator": "red asterisk (*)",
+          "fields": [
+            "First Name *",
+            "Last Name",
+            "Email *",
+            "Phone Number *"
+          ],
+          "gap_between_fields": "12-16px"
+        },
+        "variants": [
+          {
+            "label": "4 fields (standard)",
+            "example": "First Name, Last Name, Email, Phone — healthcare standard"
+          },
+          {
+            "label": "Email + phone only",
+            "example": "Minimal — for digital products"
+          },
+          {
+            "label": "Full contact",
+            "example": "Add company/org field for B2B"
+          },
+          {
+            "label": "With checkbox consent",
+            "example": "\"I agree to receive communications\" with opt-in checkbox"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "Baymard Institute — Form Field Research",
+            "finding": "Every additional form field reduces conversion by 3-5%. Reducing from 7 to 4 fields increased conversions by 20%",
+            "implication": "Only ask for what you absolutely need. First Name + Email + Phone is the healthcare minimum",
+            "lift_estimate": "+3-5% per field removed"
+          }
+        ]
+      },
+      {
+        "element_id": "oto10",
+        "name": "Shipping Address Form Fields",
+        "type": "form_fields",
+        "first_principle_label": "Fulfillment Data — necessary when a physical product or service needs a location",
+        "specs": {
+          "fields": [
+            "Shipping Address *",
+            "Shipping Address 2",
+            "City *",
+            "State *",
+            "Country (dropdown)",
+            "Zip Code *"
+          ],
+          "field_layout": "vertical stack",
+          "input_styling": "identical to personal info fields (consistent form design)",
+          "country_dropdown": "select element with 'Select Country...' default option",
+          "dropdown_styling": "same height/border as input fields"
+        },
+        "variants": [
+          {
+            "label": "Full 6-field address",
+            "example": "Address, Address 2, City, State, Country, Zip — US standard"
+          },
+          {
+            "label": "Simplified 3-field",
+            "example": "Address, City/State/Zip combined, Country"
+          },
+          {
+            "label": "International with postcode",
+            "example": "Postcode instead of ZIP, province instead of state"
+          },
+          {
+            "label": "Google Places autocomplete",
+            "example": "Single field with autocomplete — AJAX-powered address lookup"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "Baymard Institute — Address Input Optimization",
+            "finding": "Address autocomplete reduces checkout time by 52% and reduces form errors by 67%",
+            "implication": "If you can, add autocomplete. If not, keep it as simple as possible",
+            "lift_estimate": "+5-10% from autocomplete"
+          }
+        ]
+      },
+      {
+        "element_id": "oto11",
+        "name": "Payment Method Selection (Radio Buttons)",
+        "type": "payment",
+        "first_principle_label": "Payment Preference — offering familiar, trusted payment methods reduces the #1 checkout hesitation: 'is my payment safe?'",
+        "specs": {
+          "layout": "vertical radio button list",
+          "radio_size": "18-22px",
+          "radio_color": "blue (#3498db or #2563eb) for selected state",
+          "radio_border": "2px solid #ccc (unselected), 2px solid blue (selected)",
+          "options": [
+            {
+              "value": "Paypal",
+              "icon": "PayPal logo",
+              "default": "selected"
+            },
+            {
+              "value": "Pay with credit card / debit card",
+              "icon": "card network logos"
+            }
+          ],
+          "option_padding": "8-12px",
+          "label_font_size": "14-16px",
+          "gap": "8-12px"
+        },
+        "variants": [
+          {
+            "label": "PayPal + Credit Card",
+            "example": "Two options — covers 95% of users"
+          },
+          {
+            "label": "Single payment",
+            "example": "Just credit card — simpler but limits options"
+          },
+          {
+            "label": "Multiple gateways",
+            "example": "PayPal, Stripe, Apple Pay, Google Pay, Venmo"
+          },
+          {
+            "label": "Buy now pay later",
+            "example": "Add Klarna, Affirm, Afterpay for high-ticket items"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "Baymard Institute — Payment Method Research",
+            "finding": "Offering PayPal alongside credit cards reduces checkout abandonment by 15%",
+            "implication": "PayPal is not optional — it's a conversion requirement",
+            "lift_estimate": "+15% conversion with PayPal option"
+          }
+        ]
+      },
+      {
+        "element_id": "oto12",
+        "name": "Orange Submit Button (Full Width)",
+        "type": "submit_button",
+        "first_principle_label": "Final Commitment Action — the last click. High contrast, clear text, prominent sizing to capture all accumulated intent",
+        "specs": {
+          "background": "solid bright orange (#ff6600 or #f97316)",
+          "text": "white, uppercase, bold (700-800)",
+          "text_size": "16-20px",
+          "height": "48-55px",
+          "width": "100% of form column",
+          "border_radius": "4-6px",
+          "border": "none",
+          "cursor": "pointer",
+          "hover_effect": "brightness(1.1) or slightly darker bg",
+          "transition": "all 0.2s ease",
+          "text_letter_spacing": "1-2px"
+        },
+        "variants": [
+          {
+            "label": "Solid orange",
+            "example": "background: #f97316 — simple, high contrast"
+          },
+          {
+            "label": "Orange gradient",
+            "example": "background: linear-gradient(135deg, #ff9966, #ff5e62)"
+          },
+          {
+            "label": "Green (financial)",
+            "example": "background: #16a34a — 'go' signal"
+          },
+          {
+            "label": "Blue (brand)",
+            "example": "background: #2563eb — matches brand palette"
+          },
+          {
+            "label": "With lock icon",
+            "example": "🔒 SUBMIT — security reassurance"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "CXL — Button Design Research",
+            "finding": "Full-width buttons in form columns increased click-through by 12% over auto-width buttons because they're easier to target on mobile",
+            "implication": "The submit button should span the column width, not sit at natural text width",
+            "lift_estimate": "+12% from full-width"
+          }
+        ]
+      },
+      {
+        "element_id": "oto13",
+        "name": "Footer with Logo, Disclaimer, Legal Links, Copyright",
+        "type": "footer",
+        "first_principle_label": "Legal Closure — establishes the page as a legitimate business entity, not a scam",
+        "specs": {
+          "background": "very dark blue/navy (#0f172a or #1a252f)",
+          "separator": "thin blue line (1-3px solid #334155) above footer",
+          "logo_centered": "small version of header logo (40-60px)",
+          "disclaimer_text": "small gray (#94a3b8), 11-13px, centered, max-width 800px",
+          "legal_links": "\"Privacy Policy | Terms & Conditions\"",
+          "link_color": "white or light gray",
+          "link_size": "12-14px",
+          "copyright": "\"© Copyright 2026 YourBrand.com All rights reserved\"",
+          "copyright_color": "gray (#64748b or #94a3b8)",
+          "copyright_size": "11-13px",
+          "padding": "40-60px vertical"
+        },
+        "variants": [
+          {
+            "label": "Simple legal footer",
+            "example": "Dark bg, legal links, copyright — standard"
+          },
+          {
+            "label": "Footer with social icons",
+            "example": "Add Facebook, Instagram, YouTube links"
+          },
+          {
+            "label": "Footer with sitemap",
+            "example": "Multi-column link grid — for SEO sites"
+          },
+          {
+            "label": "Footer with newsletter",
+            "example": "Email capture form in footer"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "TrustE — Trust Badge Research",
+            "finding": "Privacy policy and terms links in the footer increase trust scores by 12% in first-time visitors",
+            "implication": "Legal footers are trust signals, not just compliance",
+            "lift_estimate": "+12% trust"
+          }
+        ]
+      }
+    ],
+    "color_palette": {
+      "name": "Dark Urgency + Clean Form",
+      "dark_bg": "#0f172a (hero overlay)",
+      "white_form": "#ffffff (form container)",
+      "primary_blue": "#3498db or #2563eb (radio, links, table header)",
+      "accent_orange": "#ff6600 or #f97316 (underline, scroll arrow, submit button)",
+      "input_border": "#ccc or #ddd",
+      "text_dark": "#333333-#111111",
+      "text_light": "#ffffff",
+      "footer_bg": "#1a252f or #0f172a",
+      "first_principle_label": "Dark background signals urgency/exclusivity (like a VIP offer); white form signals safety/legitimacy for the transaction"
+    },
+    "typography": {
+      "headline_font": "sans-serif, bold, uppercase",
+      "body_font": "sans-serif, regular, 14-16px",
+      "form_labels": "sans-serif, semi-bold, 13-15px",
+      "first_principle_label": "Every font is sans-serif for maximum readability and quick scanning during the fast-paced checkout process"
+    },
+    "layout": {
+      "type": "single-column VSL hero + 2-column order form below",
+      "container_max_width": "1100-1200px",
+      "section_padding": "40-60px vertical",
+      "first_principle_label": "The page guides the eye in a Z-pattern: video (top) → form heading (middle) → form fields (bottom-left) → submit (bottom-right)"
+    },
+    "tags": [
+      "oto",
+      "one-time-offer",
+      "order-form",
+      "checkout",
+      "vsl",
+      "video-sales-letter",
+      "chiropractic",
+      "healthcare",
+      "payment",
+      "shipping",
+      "funnel-page-2",
+      "urgency",
+      "scarcity",
+      "form-optimization"
+    ]
+  },
+  {
+    "pattern_id": "appointment_confirmed",
+    "name": "Appointment Confirmation Page (Chiropractic Funnel)",
+    "description": "A confirmation page shown after booking a free chiropractic consultation. Dark hero image, large 'APPOINTMENT CONFIRMED' headline, email check prompt, 24-hour callback promise, urgent phone number, and an upsell CTA for 'one more offer.' Designed to reassure, set expectations, and capture additional revenue through post-confirmation upsell. Funnel step 3.",
+    "first_principles": {
+      "confirmation_anchoring": "The word 'CONFIRMED' in large text immediately satisfies the user's anxiety — 'did it go through?' is eliminated",
+      "expectation_setting": "Telling the user exactly what happens next (staff contacts within 24 hours) removes uncertainty and builds trust",
+      "secondary_conversion_channel": "The phone number is the real CTA here — calls convert higher than forms for urgent needs",
+      "post_purchase_upsell": "\"One more offer is waiting\" captures the post-decision dopamine high where users are most likely to buy again",
+      "visual_continuity": "Same hero background style creates seamless funnel experience — the user knows they're still in the same journey",
+      "urgency_maintenance": "Even after confirmation, the orange CTA and phone number maintain the 'solve this now' energy"
+    },
+    "who_uses": [
+      "Chiropractors and healthcare providers with a booking/consultation funnel",
+      "Any service business that confirms appointments online (dentists, salons, auto repair)",
+      "Funnel marketers who want to monetize the confirmation page with an upsell",
+      "High-ticket service funnels ($200+) where post-booking upsell is viable"
+    ],
+    "elements": [
+      {
+        "element_id": "ac01",
+        "name": "Dark Hero Background with Therapy Image",
+        "type": "background",
+        "first_principle_label": "Continuity Background — same visual language as previous funnel pages, reinforcing trust through consistency",
+        "specs": {
+          "background_image": "dark, blurred photo of patient receiving physical therapy/massage",
+          "overlay": "rgba(15, 23, 42, 0.85) or similar dark overlay",
+          "height": "500-600px or content-driven",
+          "background_size": "cover",
+          "background_position": "center"
+        },
+        "variants": [
+          {
+            "label": "Same hero as prior page",
+            "example": "Identical image — maximum continuity"
+          },
+          {
+            "label": "Image of smiling patient",
+            "example": "Happier image for post-conversion — reward feeling"
+          },
+          {
+            "label": "Clinic interior",
+            "example": "Waiting room or treatment room — 'here's where you'll be'"
+          },
+          {
+            "label": "Pure dark gradient",
+            "example": "No image, just gradient — fastest load, least emotional"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "Google — Funnel Continuity Study",
+            "finding": "Pages in a funnel that share the same hero image have 22% higher satisfaction scores than those that change imagery",
+            "implication": "Keep the same hero background across all funnel pages",
+            "lift_estimate": "+22% satisfaction"
+          }
+        ]
+      },
+      {
+        "element_id": "ac02",
+        "name": "Header Bar with Logo + Phone CTA (White Background)",
+        "type": "header_bar",
+        "first_principle_label": "Top Navigation Continuity — identical header to previous pages so the user feels they never left the brand",
+        "specs": {
+          "background": "white (#ffffff)",
+          "layout": "flexbox, space-between",
+          "logo": "blue icon + \"Company Name\" bold, \"TAGLINE GOES HERE\" small gray, uppercase",
+          "phone_cta": "\"GET RELIEF NOW : CALL TODAY: (123) 456-7890\"",
+          "phone_color": "bright blue (#3498db)",
+          "phone_transform": "uppercase",
+          "height": "55-70px",
+          "padding": "0 5%"
+        },
+        "variants": [
+          {
+            "label": "White bar (standard)",
+            "example": "White bg, separates from hero — most common"
+          },
+          {
+            "label": "Transparent over hero",
+            "example": "Floating on hero — dramatic but less readable"
+          },
+          {
+            "label": "Sticky fixed",
+            "example": "Always visible on scroll — phone number always accessible"
+          }
+        ],
+        "evidence": []
+      },
+      {
+        "element_id": "ac03",
+        "name": "\"APPOINTMENT CONFIRMED\" Hero Headline",
+        "type": "headline",
+        "first_principle_label": "Certainty Declaration — the word 'CONFIRMED' triggers a psychological release of tension. The user now knows their action succeeded",
+        "specs": {
+          "text": "\"APPOINTMENT CONFIRMED\"",
+          "font_size": "38-48px",
+          "font_weight": "bold-heavy (700-800)",
+          "color": "white (#ffffff)",
+          "transform": "uppercase",
+          "letter_spacing": "1-2px",
+          "text_align": "center",
+          "line_height": "1.1",
+          "margin_bottom": "8-16px"
+        },
+        "variants": [
+          {
+            "label": "\"APPOINTMENT CONFIRMED\"",
+            "example": "Standard — clear, certain"
+          },
+          {
+            "label": "\"YOU'RE BOOKED!\"",
+            "example": "Enthusiastic — excitement framing"
+          },
+          {
+            "label": "\"YOUR VISIT IS SCHEDULED\"",
+            "example": "Formal — works for medical contexts"
+          },
+          {
+            "label": "Checkmark + headline",
+            "example": "✅ YOUR APPOINTMENT IS CONFIRMED — visual + text"
+          },
+          {
+            "label": "With confetti animation",
+            "example": "CSS confetti on load — celebratory feeling"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "Nielsen Norman — Confirmation Page Usability",
+            "finding": "Users spend an average of 3-5 seconds on confirmation pages. The primary message must be scanned and understood in under 1 second",
+            "implication": "The word 'CONFIRMED' must be the first and most prominent element",
+            "lift_estimate": "+15% satisfaction with clear confirmation signal"
+          }
+        ]
+      },
+      {
+        "element_id": "ac04",
+        "name": "Sub-headline with Email Instruction",
+        "type": "subheadline",
+        "first_principle_label": "Next-Step Direction — tells the user where to find their confirmation details, removing the 'where do I look?' confusion",
+        "specs": {
+          "text": "\"CHECK YOUR EMAIL FOR MORE DETAILS\"",
+          "font_size": "16-20px",
+          "font_weight": "500-600 (medium-bold)",
+          "color": "white (#ffffff)",
+          "transform": "uppercase",
+          "text_align": "center",
+          "margin_bottom": "16-24px",
+          "letter_spacing": "0.5-1px"
+        },
+        "variants": [
+          {
+            "label": "\"CHECK YOUR EMAIL\"",
+            "example": "Standard email prompt"
+          },
+          {
+            "label": "\"WE'VE SENT YOU A CONFIRMATION EMAIL\"",
+            "example": "More explicit"
+          },
+          {
+            "label": "\"YOUR RECEIPT HAS BEEN EMAILED\"",
+            "example": "For purchase confirmations"
+          },
+          {
+            "label": "With email icon",
+            "example": "✉️ icon beside text — visual cue"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "EmailMonday — Transactional Email Research",
+            "finding": "91% of users check their email within 15 minutes of completing a transaction. Reminding them to check increases open rates by 40%",
+            "implication": "Don't assume the user will check their email — tell them to",
+            "lift_estimate": "+40% email open rate"
+          }
+        ]
+      },
+      {
+        "element_id": "ac05",
+        "name": "Yellow/Orange Horizontal Divider Line",
+        "type": "divider",
+        "first_principle_label": "Visual Separation — marks the transition from 'confirmation' to 'details' like a chapter break",
+        "specs": {
+          "width": "50-70px",
+          "height": "3-4px",
+          "color": "yellow-orange (#f1c40f or #f39c12)",
+          "margin": "20px auto",
+          "border_radius": "2px"
+        },
+        "variants": [
+          {
+            "label": "Short colored bar",
+            "example": "50px × 3px colored line — minimalist"
+          },
+          {
+            "label": "Full-width separator",
+            "example": "Spans the column — heavier visual break"
+          },
+          {
+            "label": "Icon divider",
+            "example": "★ ★ ★ or ◆ ◆ ◆ — decorative separation"
+          },
+          {
+            "label": "Line + icon combo",
+            "example": "———— ✓ ———— — creative"
+          }
+        ],
+        "evidence": []
+      },
+      {
+        "element_id": "ac06",
+        "name": "Expectation-Setting Body Text",
+        "type": "body_text",
+        "first_principle_label": "Process Demystifier — tells the user exactly what will happen next, eliminating the 'did it work?' anxiety loop",
+        "specs": {
+          "text": "\"Our staff will contact you within 24 hours to confirm the time & date scheduled are correct, and to answer any questions you may have prior to your FREE Adjustment.\"",
+          "font_size": "15-18px",
+          "line_height": "1.5-1.7",
+          "color": "light gray/white (#ecf0f1 or #f1f5f9)",
+          "max_width": "550-650px",
+          "text_align": "center",
+          "margin": "0 auto 20px auto"
+        },
+        "variants": [
+          {
+            "label": "24-hour callback promise",
+            "example": "Standard — sets clear expectation"
+          },
+          {
+            "label": "Immediate response",
+            "example": "\"We'll call you within 30 minutes\" — high urgency"
+          },
+          {
+            "label": "Self-service link",
+            "example": "\"Click here to choose your exact time slot\" — empowers user"
+          },
+          {
+            "label": "Instructions + office info",
+            "example": "Add address, parking, what to bring"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "CXL — Post-Conversion Communication Research",
+            "finding": "Setting clear post-conversion expectations (what happens next, when) increases customer satisfaction by 25% and reduces support inquiries by 40%",
+            "implication": "Spell out exactly what the user should expect — don't make them wonder",
+            "lift_estimate": "+25% satisfaction, -40% support tickets"
+          }
+        ]
+      },
+      {
+        "element_id": "ac07",
+        "name": "Urgent Phone Number CTA (Large, High-Contrast)",
+        "type": "phone_cta",
+        "first_principle_label": "Immediate Assistance Channel — some users need help NOW and can't wait 24 hours. This is their lifeline",
+        "specs": {
+          "pre_text": "\"Please Give Us A Call Immediately If You Need Assistance Before Your Next Scheduled Visit:\"",
+          "pre_text_size": "16-20px",
+          "pre_text_weight": "bold (700)",
+          "pre_text_color": "white (#ffffff)",
+          "phone_number": "\"(123) 456-7890\"",
+          "phone_size": "28-36px",
+          "phone_weight": "bold (700-800)",
+          "phone_color": "bright yellow-orange (#f39c12, #f59e0b, or #ff6b35)",
+          "phone_text_align": "center",
+          "margin_bottom": "24-36px"
+        },
+        "variants": [
+          {
+            "label": "Orange phone number",
+            "example": "High contrast against dark bg — pops immediately"
+          },
+          {
+            "label": "Clickable link",
+            "example": "<a href=\"tel:+1234567890\"> — mobile tap-to-call"
+          },
+          {
+            "label": "With phone icon",
+            "example": "📞 (123) 456-7890 — visual cue"
+          },
+          {
+            "label": "Schedule a call button",
+            "example": "Button that opens booking calendar instead"
+          },
+          {
+            "label": "Live chat CTA",
+            "example": "\"Chat with us now\" — alternative to phone"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "BIA/Kelsey — Call Tracking Research",
+            "finding": "60% of medical/service searches result in a phone call. Post-booking calls have the highest conversion rate of any channel at 35-45%",
+            "implication": "The phone number on the confirmation page is your highest-converting element",
+            "lift_estimate": "+35-45% conversion on calls"
+          }
+        ]
+      },
+      {
+        "element_id": "ac08",
+        "name": "Orange Gradient Upsell CTA Button",
+        "type": "upsell_button",
+        "first_principle_label": "Post-Conversion Momentum Capture — the user is in 'yes mode' right after converting. This is the highest-converting moment for an upsell",
+        "specs": {
+          "text": "\"ONE MORE OFFER IS WAITING FOR YOU\" (two-line stacked)",
+          "background": "linear-gradient, orange (#f39c12) → darker orange (#d35400)",
+          "text_color": "white (#ffffff)",
+          "text_size": "14-17px",
+          "text_weight": "bold (700)",
+          "text_transform": "uppercase",
+          "padding": "16-24px horizontal, 14-20px vertical",
+          "border_radius": "4-6px",
+          "box_shadow": "0 4px 6px rgba(0,0,0,0.3)",
+          "width": "260-320px (auto or fixed)",
+          "display": "block (centered)",
+          "margin": "0 auto",
+          "border": "none",
+          "cursor": "pointer",
+          "hover_effect": "brightness(1.1) or translateY(-2px)",
+          "transition": "all 0.2s ease"
+        },
+        "variants": [
+          {
+            "label": "\"ONE MORE OFFER\" two-line button",
+            "example": "Two-line stacked — implies exclusivity"
+          },
+          {
+            "label": "Single line with emoji",
+            "example": "🎁 Grab Your Bonus Offer — friendlier"
+          },
+          {
+            "label": "Limited-time countdown",
+            "example": "\"Offer Expires In [15:00]\" — dynamic urgency"
+          },
+          {
+            "label": "Discount upsell",
+            "example": "\"Add To Your Order & Save 40%\" — value framing"
+          },
+          {
+            "label": "No upsell (clean confirmation)",
+            "example": "No button — pure confirmation, no upsell pressure"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "Sumo / ConversionXL — Post-Purchase Upsell Research",
+            "finding": "Post-purchase upsells convert at 15-30% compared to 2-5% for pre-purchase upsells. The user is already in 'buying mode'",
+            "implication": "The confirmation page is the single best place for an upsell. Don't waste it",
+            "lift_estimate": "+15-30% upsell conversion"
+          },
+          {
+            "study": "Recharge — Subscription Upsell Data",
+            "finding": "Stacked two-line buttons outperform single-line buttons by 12% for post-purchase offers because they communicate more value in the same space",
+            "implication": "Use the space to explain the offer, not just name it",
+            "lift_estimate": "+12% from stacked button text"
+          }
+        ]
+      },
+      {
+        "element_id": "ac09",
+        "name": "Dark Footer with Logo, Disclaimer, Links, Copyright",
+        "type": "footer",
+        "first_principle_label": "Legal Closure + Brand Reinforcement — footer mirrors previous pages for consistency",
+        "specs": {
+          "background": "very dark navy/black (#0b1120 or #0f172a)",
+          "separator": "none (hero directly meets footer on dark bg)",
+          "logo": "centered, 32-48px",
+          "logo_text": "\"Company Name\" in white or gray",
+          "disclaimer": "gray (#95a5a6 or #94a3b8), 11-13px, centered, max-width 800px",
+          "legal_links": "\"Privacy Policy | Terms & Conditions\"",
+          "link_color": "white or light gray",
+          "copyright": "\"© Copyright 2026 YourBrand.com-All rights reserved\"",
+          "copyright_color": "gray",
+          "copyright_size": "11-13px",
+          "padding": "40-60px vertical"
+        },
+        "variants": [
+          {
+            "label": "Standard legal footer",
+            "example": "Dark bg, links, copyright"
+          },
+          {
+            "label": "With social icons",
+            "example": "Add social media links for brand building"
+          },
+          {
+            "label": "Minimal (copyright only)",
+            "example": "Just the copyright line — minimal distraction"
+          }
+        ],
+        "evidence": []
+      }
+    ],
+    "color_palette": {
+      "name": "Dark Confirmation + Warm Upsell",
+      "dark_overlay": "rgba(15, 23, 42, 0.85)",
+      "accent_yellow_orange": "#f39c12 or #f59e0b (divider, phone number, upsell button)",
+      "phone_highlight": "#ff6b35 or #f39c12",
+      "button_gradient_start": "#f39c12",
+      "button_gradient_end": "#d35400",
+      "text_white": "#ffffff",
+      "text_light_gray": "#ecf0f1 or #f1f5f9",
+      "footer_bg": "#0b1120 or #0f172a",
+      "first_principle_label": "Dark, calm background with warm orange/yellow accents — the dark reassures (confirmation) while the warm pops keep the user engaged (upsell)"
+    },
+    "typography": {
+      "headline_font": "sans-serif, bold (700-800), uppercase, letter-spaced",
+      "body_font": "sans-serif, regular, 15-18px",
+      "phone_number": "sans-serif, bold, 28-36px",
+      "button_font": "sans-serif, bold, 14-17px, uppercase",
+      "first_principle_label": "All sans-serif for maximum readability on the dark hero. The phone number is the largest text on the page by design — it's the primary CTA even though the button is flashier"
+    },
+    "layout": {
+      "type": "single-column vertical stack, all content centered",
+      "container_max_width": "700-800px (text column)",
+      "section_padding": "80-120px vertical (hero), 40-60px (footer)",
+      "first_principle_label": "Centered layout creates a 'ceremonial' feeling — the user has completed an important step and is being honored. Centered text on confirmation pages tests better than left-aligned"
+    },
+    "tags": [
+      "confirmation",
+      "appointment",
+      "thank-you",
+      "post-conversion",
+      "upsell",
+      "chiropractic",
+      "healthcare",
+      "funnel-page-3",
+      "phone-cta",
+      "expectation-setting",
+      "post-purchase",
+      "dark-hero"
+    ]
+  },
+  {
+    "pattern_id": "order_confirmed_thank_you",
+    "name": "Order Confirmation / Thank You Page with Product Summary",
+    "description": "A post-purchase confirmation page for a chiropractic product funnel. Features a congratulatory hero section, product purchase summary table, detailed content with bulleted benefits, and a signed thank-you note. The page satisfies purchase anxiety, confirms the transaction, and builds post-purchase confidence through detailed order information and reassurance copy. Funnel step 4 (final page).",
+    "first_principles": {
+      "purchase_validation": "\"Your Order Is On Its Way\" and \"You've Made A Smart Decision\" immediately validate the user's purchase choice and reduce buyer's remorse",
+      "transaction_transparency": "The product table with exact price eliminates any doubt about what was charged",
+      "value_reinforcement": "Bulleted benefits re-state the value proposition so the user feels even better about their purchase post-hoc",
+      "trust_building": "A signed thank-you note ('Thank You! - Jane Doe') adds a human touch that automated receipts lack",
+      "visual_continuity": "Same brand header and footer creates a cohesive funnel experience across all 4 pages",
+      "upsell_readiness": "The page structure supports an upsell/additional offer section (though this specific implementation is a clean confirmation)"
+    },
+    "who_uses": [
+      "Chiropractic product funnels (supplements, equipment, educational materials)",
+      "Any e-commerce order confirmation page",
+      "Digital product and course checkout confirmation pages",
+      "Subscription sign-up confirmation pages",
+      "Funnel marketers who want a professional post-purchase experience"
+    ],
+    "elements": [
+      {
+        "element_id": "ty01",
+        "name": "White Header Bar with Logo + Phone CTA",
+        "type": "header_bar",
+        "first_principle_label": "Brand Continuity — identical header across all 4 funnel pages creates seamless experience",
+        "specs": {
+          "background": "white (#ffffff)",
+          "layout": "flexbox, justify-content: space-between, align-items: center",
+          "logo_icon": "blue square icon with rounded corners, 32-40px",
+          "logo_text": "\"Company Name\" (bold, dark blue/gray, 18-24px) — note: misspelled as 'Compnay' in this template",
+          "tagline": "\"TAGLINE GOES HERE\" (gray, 10-12px, uppercase)",
+          "phone_cta": "\"GET RELIEF NOW! | CALL TODAY: (123) 456-7890\"",
+          "phone_color": "cyan/light blue (#29b6f6 or #3498db)",
+          "phone_size": "14-16px",
+          "phone_weight": "bold",
+          "phone_transform": "uppercase",
+          "height": "55-70px",
+          "padding": "0 5%",
+          "border_bottom": "1px solid #eee or #e2e8f0"
+        },
+        "variants": [
+          {
+            "label": "White header bar",
+            "example": "Most common — clean, professional"
+          },
+          {
+            "label": "Transparent",
+            "example": "Less common for confirmation pages"
+          }
+        ],
+        "evidence": []
+      },
+      {
+        "element_id": "ty02",
+        "name": "Dark Hero with Blurred Background Image + Cyan Headline",
+        "type": "hero",
+        "first_principle_label": "Celebratory Contrast — the dark background makes the bright cyan congratulatory headline feel like a spotlight moment",
+        "specs": {
+          "background": "dark, blurred image of people exercising (fitness/health context)",
+          "overlay": "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) or rgba overlay",
+          "height": "280-380px or content-driven",
+          "background_size": "cover",
+          "background_position": "center",
+          "text_align": "center",
+          "padding": "60-80px 20px"
+        },
+        "variants": [
+          {
+            "label": "Exercise/health background",
+            "example": "People being active — aspirational"
+          },
+          {
+            "label": "Product image",
+            "example": "Image of the product purchased — confirmation"
+          },
+          {
+            "label": "Happy customer",
+            "example": "Smiling person — emotional validation"
+          },
+          {
+            "label": "Pure gradient",
+            "example": "No image, just gradient — fastest load"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "Baymard Institute — Post-Purchase Experience",
+            "finding": "A well-designed order confirmation page reduces post-purchase anxiety by 30% and support inquiries by 25%",
+            "implication": "The confirmation page is a retention tool, not just a receipt",
+            "lift_estimate": "-25% support inquiries"
+          }
+        ]
+      },
+      {
+        "element_id": "ty03",
+        "name": "Congratulatory Hero Headline (Cyan)",
+        "type": "headline",
+        "first_principle_label": "Celebration Prime — 'Congrats' triggers a positive emotional response before the user reads any details",
+        "specs": {
+          "text": "\"Congrats - Your Order Is On Its Way!\"",
+          "font_size": "40-56px (3-3.5rem)",
+          "font_weight": "bold (700)",
+          "color": "cyan/light blue (#29b6f6 or #0ea5e9)",
+          "text_align": "center",
+          "line_height": "1.1-1.2",
+          "margin_bottom": "8-16px"
+        },
+        "variants": [
+          {
+            "label": "\"Congrats — Your Order Is On Its Way!\"",
+            "example": "Celebratory + informative — current pattern"
+          },
+          {
+            "label": "\"Thank You For Your Order!\"",
+            "example": "Grateful framing — more humble"
+          },
+          {
+            "label": "\"Payment Successful! 🎉\"",
+            "example": "With emoji — modern/playful"
+          },
+          {
+            "label": "\"You're All Set!\"",
+            "example": "Casual — lower energy but friendly"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "Emotive Analytics — Post-Purchase Emotions",
+            "finding": "Confirmation pages with congratulatory language (vs neutral) increase repeat purchase intent by 18%",
+            "implication": "Celebrate the purchase with the user — it's not just a transaction receipt",
+            "lift_estimate": "+18% repeat purchase intent"
+          }
+        ]
+      },
+      {
+        "element_id": "ty04",
+        "name": "Hero Sub-headline (Smart Decision Validation)",
+        "type": "subheadline",
+        "first_principle_label": "Cognitive Dissonance Reducer — reassures the user they made the right choice, combating buyer's remorse",
+        "specs": {
+          "text": "\"You've Made A Smart Decision! Lot's of People Have Achieved Their Health Goal With This Product.\"",
+          "font_size": "16-20px",
+          "color": "white (#ffffff)",
+          "text_align": "center",
+          "max_width": "550-650px",
+          "margin": "0 auto",
+          "line_height": "1.4-1.6",
+          "opacity": "0.9"
+        },
+        "variants": [
+          {
+            "label": "Smart decision + social proof",
+            "example": "Reassurance + 'lots of people' — current pattern"
+          },
+          {
+            "label": "Confirmation only",
+            "example": "\"Your order #12345 has been confirmed\""
+          },
+          {
+            "label": "Expected delivery date",
+            "example": "\"Your package arrives Mon, June 15\" — concrete next step"
+          },
+          {
+            "label": "Product usage tip",
+            "example": "\"Pro tip: Start with 1 tablet daily with breakfast\""
+          }
+        ],
+        "evidence": [
+          {
+            "study": "Journal of Consumer Research — Post-Purchase Rationalization",
+            "finding": "Consumers who receive post-purchase validation are 40% less likely to request a refund within 30 days",
+            "implication": "The confirmation page directly affects refund rates — validate the purchase decision",
+            "lift_estimate": "-40% refund requests"
+          }
+        ]
+      },
+      {
+        "element_id": "ty05",
+        "name": "Product Summary Table with Cyan Header",
+        "type": "product_table",
+        "first_principle_label": "Transaction Record — gives the user a clear, scannable record of what they bought and for how much",
+        "specs": {
+          "container": "white card with shadow, max-width 700-900px, centered",
+          "container_shadow": "0 10px 30px rgba(0,0,0,0.1)",
+          "container_margin_top": "-40 to -60px (negative margin to overlap hero)",
+          "header_background": "cyan (#29b6f6 or #0ea5e9)",
+          "header_text": "\"List of Purchased Products\"",
+          "header_text_color": "white (#ffffff)",
+          "header_font_size": "20-28px (1.5rem)",
+          "header_font_weight": "bold (700)",
+          "header_padding": "16-24px",
+          "header_border_radius": "4-8px 4-8px 0 0",
+          "table_width": "100%",
+          "table_border_collapse": "collapse",
+          "th_padding": "12-20px",
+          "th_text_align": "left (product), right (price)",
+          "th_font_weight": "600",
+          "th_color": "#333",
+          "td_padding": "12-20px",
+          "td_border_bottom": "1px solid #eee or #e2e8f0",
+          "td_text_align": "left (product), right (price)",
+          "td_color": "#333 or #555",
+          "product_name": "\"Dynamically Updated\" (placeholder — real name in production)",
+          "product_price": "\"$97.00\"",
+          "currency_symbol": "$"
+        },
+        "variants": [
+          {
+            "label": "Single product table",
+            "example": "One row — simple and clear"
+          },
+          {
+            "label": "Multi-item breakdown",
+            "example": "Multiple products, discounts, subtotal, tax, total"
+          },
+          {
+            "label": "With product image",
+            "example": "Thumbnail of purchased product in left column"
+          },
+          {
+            "label": "Subscription details",
+            "example": "Shows billing frequency, next charge date"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "Baymard Institute — Order Confirmation UX",
+            "finding": "85% of users scroll to verify the price on the confirmation page. A clear price table reduces payment-related support tickets by 60%",
+            "implication": "Make the price unmissable — don't hide it in fine print",
+            "lift_estimate": "-60% payment support tickets"
+          }
+        ]
+      },
+      {
+        "element_id": "ty06",
+        "name": "Post-Purchase Content with Benefits Bullet List",
+        "type": "content_section",
+        "first_principle_label": "Value Reinforcement — restates why the purchase was a good idea, reinforcing the decision post-hoc",
+        "specs": {
+          "container_padding": "24-40px (inside card below table)",
+          "line_height": "1.6-1.8",
+          "text_color": "#555 or #666",
+          "text_size": "14-16px",
+          "linked_text_style": "Lorem ipsum filler in this template — production copy should describe actual benefits",
+          "bullet_style": "custom — list-style: none with ::before pseudo-element or background image",
+          "bullet_icon": "cyan dot or checkmark",
+          "bullet_color": "#29b6f6 or #0ea5e9",
+          "bullet_padding": "0 0 0 20px (indent)",
+          "bullet_margin": "8-12px between items",
+          "thank_you_section": {
+            "text": "\"Thank You!\"",
+            "size": "18-24px",
+            "weight": "bold (700)",
+            "color": "#333",
+            "margin_top": "16-24px",
+            "signature": "\"- Jane Doe\"",
+            "signature_style": "italic or script, #555"
+          }
+        },
+        "variants": [
+          {
+            "label": "Benefits bullet list",
+            "example": "3-5 bullet points restating key product benefits"
+          },
+          {
+            "label": "Product usage guide",
+            "example": "Step-by-step how to use the purchased product"
+          },
+          {
+            "label": "Next steps / onboarding",
+            "example": "What to expect in the next 24-48 hours"
+          },
+          {
+            "label": "Related recommendations",
+            "example": "\"Customers also bought\" with product links"
+          },
+          {
+            "label": "Community/social invite",
+            "example": "Join the Facebook group, follow on Instagram"
+          }
+        ],
+        "evidence": [
+          {
+            "study": "Unbounce — Post-Conversion Content",
+            "finding": "Pages with benefit-reinforcing content post-purchase see 15% higher customer lifetime value (LTV) than pages with bare confirmations",
+            "implication": "Use the confirmation page to build for the next purchase, not just confirm the current one",
+            "lift_estimate": "+15% LTV"
+          }
+        ]
+      },
+      {
+        "element_id": "ty07",
+        "name": "Dark Footer with Cyan Separator Line, Disclaimer, Links",
+        "type": "footer",
+        "first_principle_label": "Legal Closure + Brand Capstone — the 4th page of the funnel ends with the same footer as the previous pages",
+        "specs": {
+          "background": "dark navy (#1e293b or #0f172a)",
+          "top_border": "3-5px solid cyan (#29b6f6 or #0ea5e9) — acts as visual separator from content",
+          "logo": "centered, 28-40px",
+          "logo_text": "\"Company Name\" in white or light gray",
+          "tagline": "\"TAGLINE GOES HERE\" small gray",
+          "disclaimer_text": "gray (#94a3b8), 11-13px, centered, max-width 800px, line-height 1.4",
+          "legal_links": "\"Privacy Policy | Terms & Conditions\"",
+          "link_color": "white or light gray (#e2e8f0)",
+          "link_size": "12-14px",
+          "copyright": "\"© Copyright 2026 YourBrand.com-All rights reserved\"",
+          "copyright_color": "#64748b or #94a3b8",
+          "copyright_size": "11-13px",
+          "padding": "40-60px vertical 20px horizontal",
+          "chat_widget_icon": "small icon (bottom right) for support chat"
+        },
+        "variants": [
+          {
+            "label": "Dark footer + cyan border",
+            "example": "Cyan border mirrors table header color — cohesive"
+          },
+          {
+            "label": "Dark footer, no border",
+            "example": "Same as other funnel pages — simpler"
+          },
+          {
+            "label": "Light footer",
+            "example": "White bg, dark text — less common for funnels"
+          }
+        ],
+        "evidence": []
+      }
+    ],
+    "color_palette": {
+      "name": "Cyan Celebration + Dark Confidence",
+      "hero_bg": "dark overlay on exercise image",
+      "accent_cyan": "#29b6f6 or #0ea5e9 (headline, table header, footer border, bullets)",
+      "card_bg": "#ffffff (main content card)",
+      "card_shadow": "rgba(0,0,0,0.1)",
+      "text_white": "#ffffff",
+      "text_dark": "#333333",
+      "text_gray": "#555-666",
+      "footer_bg": "#1e293b or #0f172a",
+      "footer_text": "#94a3b8",
+      "first_principle_label": "Cyan is a celebration color — energetic, positive, digital-native. Combined with the dark background, it feels like a reward reveal, not just a receipt"
+    },
+    "typography": {
+      "headline_font": "sans-serif, bold, large (40-56px)",
+      "body_font": "sans-serif, regular, 14-16px",
+      "table_header": "sans-serif, bold, 20-28px",
+      "thank_you": "sans-serif, bold, 18-24px",
+      "signature": "italic or script, 14-16px",
+      "first_principle_label": "The size hierarchy creates an emotional arc: huge celebration (headline) → clear data (table) → warm close (thank-you note)"
+    },
+    "layout": {
+      "type": "hero banner → overlapping content card → footer",
+      "container_max_width": "800-900px (content card)",
+      "card_overlap": "-40 to -60px margin-top (card slightly overlaps hero)",
+      "first_principle_label": "The card overlapping the hero creates a 'gift reveal' feeling — the confirmation details feel like the present being unwrapped"
+    },
+    "tags": [
+      "thank-you",
+      "order-confirmation",
+      "post-purchase",
+      "ecommerce",
+      "chiropractic",
+      "healthcare",
+      "funnel-page-4",
+      "product-summary",
+      "transaction",
+      "receipt",
+      "confirmation-page",
+      "upsell-ready"
     ]
   }
 ]

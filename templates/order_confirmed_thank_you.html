@@ -1,0 +1,74 @@
+<!--
+Template for: order_confirmed_thank_you
+-->
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Open Sans',sans-serif; background:#f8f9fa; color:#333; }
+.header { display:flex; justify-content:space-between; align-items:center; padding:12px 5%; background:#fff; height:65px; border-bottom:1px solid #eee; }
+.header .logo { display:flex; align-items:center; gap:8px; }
+.header .logo-icon { width:34px; height:34px; background:#29b6f6; border-radius:6px; }
+.header .logo-text { font-weight:700; font-size:18px; color:#333; }
+.header .logo-tagline { font-size:10px; color:#999; text-transform:uppercase; }
+.header .phone-cta { color:#29b6f6; font-weight:700; font-size:13px; text-transform:uppercase; text-decoration:none; letter-spacing:0.5px; }
+.hero { background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('[HERO_IMAGE]') center/cover no-repeat; text-align:center; padding:70px 20px; }
+.hero h1 { font-size:48px; font-weight:700; color:#29b6f6; margin-bottom:10px; line-height:1.1; }
+.hero p { font-size:18px; color:#fff; max-width:600px; margin:0 auto; }
+.card { max-width:800px; margin:-50px auto 50px; background:#fff; border-radius:6px; box-shadow:0 10px 30px rgba(0,0,0,0.1); position:relative; z-index:10; overflow:hidden; }
+.card-header { background:#29b6f6; color:#fff; padding:20px 24px; text-align:center; font-size:22px; font-weight:700; }
+table { width:100%; border-collapse:collapse; }
+th, td { padding:16px 24px; text-align:left; border-bottom:1px solid #eee; }
+th { font-weight:600; color:#333; }
+td:last-child { text-align:right; font-weight:700; }
+.card-body { padding:28px 32px; line-height:1.7; color:#555; font-size:15px; }
+.card-body p { margin-bottom:16px; }
+.card-body ul { list-style:none; padding:0; margin-bottom:16px; }
+.card-body ul li { position:relative; padding-left:20px; margin-bottom:8px; }
+.card-body ul li::before { content:'\2022'; color:#29b6f6; font-weight:700; position:absolute; left:0; }
+.card-body .thank-you { font-size:22px; font-weight:700; color:#333; margin-top:8px; }
+.card-body .signature { font-style:italic; color:#555; font-size:15px; }
+footer { background:#1e293b; color:#94a3b8; text-align:center; padding:45px 20px 25px; border-top:4px solid #29b6f6; }
+footer .footer-logo { font-size:20px; font-weight:700; color:#fff; margin-bottom:10px; }
+footer .disclaimer { max-width:750px; margin:0 auto 16px; font-size:12px; line-height:1.5; }
+footer .links { margin-bottom:10px; }
+footer .links a { color:#94a3b8; text-decoration:none; font-size:13px; margin:0 8px; }
+footer .links a:hover { color:#fff; }
+footer .copyright { font-size:12px; }
+@media (max-width:768px) {
+  .hero h1 { font-size:32px; }
+  .card-header { font-size:18px; }
+  .card-body { padding:20px; }
+}
+</style>
+
+<div class="header">
+  <div class="logo">
+    <div class="logo-icon"></div>
+    <div><div class="logo-text">[COMPANY_NAME]</div><div class="logo-tagline">[TAGLINE]</div></div>
+  </div>
+  <a href="tel:[PHONE_NUMBER]" class="phone-cta">[PHONE_CTA_TEXT]</a>
+</div>
+
+<section class="hero">
+  <h1>[CONGRATS_HEADLINE]</h1>
+  <p>[SMART_DECISION_TEXT]</p>
+</section>
+
+<div class="card">
+  <div class="card-header">[TABLE_HEADER]</div>
+  <table>
+    <tr><th>[PRODUCT_COL]</th><th style="text-align:right">[PRICE_COL]</th></tr>
+    <tr><td>[PRODUCT_NAME]</td><td>[PRODUCT_PRICE]</td></tr>
+  </table>
+  <div class="card-body">
+    [BODY_CONTENT_HTML]
+    <div class="thank-you">[THANK_YOU_TEXT]</div>
+    <div class="signature">[SIGNATURE_TEXT]</div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-logo">[FOOTER_LOGO]</div>
+  <p class="disclaimer">[DISCLAIMER_TEXT]</p>
+  <div class="links"><a href="#">[LEGAL_LINK_1]</a> | <a href="#">[LEGAL_LINK_2]</a></div>
+  <p class="copyright">[COPYRIGHT_TEXT]</p>
+</footer>

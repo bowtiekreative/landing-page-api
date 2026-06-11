@@ -1,0 +1,111 @@
+<!--
+Template for: one_time_offer_order
+-->
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Open Sans',sans-serif; color:#333; background:#f8f9fa; }
+.header { display:flex; justify-content:space-between; align-items:center; padding:12px 5%; background:#fff; height:60px; }
+.header .logo { display:flex; align-items:center; gap:8px; }
+.header .logo-icon { width:36px; height:36px; background:#2563eb; border-radius:6px; }
+.header .logo-text { font-weight:700; font-size:18px; color:#333; }
+.header .logo-tagline { font-size:10px; color:#999; text-transform:uppercase; }
+.header .phone-cta { color:#2563eb; font-weight:700; font-size:14px; text-transform:uppercase; text-decoration:none; }
+.hero { background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('[HERO_IMAGE]') center/cover no-repeat; padding:60px 5%; text-align:center; color:#fff; }
+.hero h1 { font-size:38px; font-weight:700; margin-bottom:6px; }
+.hero .offer-decor { position:relative; display:inline-block; }
+.hero .offer-decor::after { content:''; position:absolute; bottom:-4px; left:0; right:0; height:4px; background:#f97316; }
+.hero .offer-desc { font-size:16px; opacity:0.85; max-width:600px; margin:20px auto 0; }
+.hero .scroll-arrow { display:block; margin:24px auto 0; color:#f97316; font-size:28px; animation:bounce 2s infinite; }
+@keyframes bounce { 0%,100%{transform:translateY(0)} 50%{transform:translateY(8px)} }
+.video-container { max-width:680px; margin:24px auto 0; border-radius:6px; overflow:hidden; box-shadow:0 4px 20px rgba(0,0,0,0.3); }
+.video-container iframe { width:100%; aspect-ratio:16/9; border:0; }
+
+.form-section { padding:60px 5%; }
+.form-container { max-width:880px; margin:0 auto; background:#fff; border-radius:6px; box-shadow:0 4px 15px rgba(0,0,0,0.05); overflow:hidden; }
+.form-heading { font-size:32px; font-weight:800; color:#111; padding:28px 32px 0; }
+.form-grid { display:grid; grid-template-columns:1fr 1fr; gap:24px; padding:24px 32px 32px; }
+.form-group { margin-bottom:16px; }
+.form-group label { display:block; font-size:14px; font-weight:600; color:#555; margin-bottom:4px; }
+.form-group label .required { color:#dc2626; }
+.form-group input, .form-group select { width:100%; height:42px; padding:0 12px; border:1px solid #ddd; border-radius:4px; font-size:14px; font-family:inherit; }
+.form-group input:focus { outline:none; border-color:#2563eb; }
+.product-table { width:100%; border-collapse:collapse; margin-bottom:20px; }
+.product-table th { background:#e6f7ff; padding:12px 16px; text-align:left; font-weight:600; color:#2563eb; }
+.product-table td { padding:12px 16px; border-bottom:1px solid #eee; }
+.product-table td:last-child { text-align:right; font-weight:700; }
+.payment-group { margin-top:16px; }
+.payment-option { display:flex; align-items:center; gap:10px; padding:10px 12px; cursor:pointer; }
+.payment-option input[type=radio] { width:18px; height:18px; accent-color:#2563eb; }
+.submit-btn { width:100%; height:50px; background:#f97316; color:#fff; font-size:18px; font-weight:700; text-transform:uppercase; letter-spacing:2px; border:0; border-radius:4px; cursor:pointer; transition:all 0.2s; margin-top:8px; }
+.submit-btn:hover { background:#ea580c; }
+
+footer { background:#0f172a; color:#94a3b8; text-align:center; padding:50px 5% 30px; }
+footer .footer-logo { font-size:24px; font-weight:700; color:#fff; margin-bottom:12px; }
+footer .disclaimer { max-width:700px; margin:0 auto 20px; font-size:12px; line-height:1.5; }
+footer .links { margin-bottom:12px; }
+footer .links a { color:#94a3b8; text-decoration:none; font-size:13px; margin:0 8px; }
+footer .links a:hover { color:#fff; }
+footer .copyright { font-size:12px; }
+@media (max-width:768px) { .form-grid { grid-template-columns:1fr; } }
+</style>
+
+<div class="header">
+  <div class="logo">
+    <div class="logo-icon"></div>
+    <div><div class="logo-text">[COMPANY_NAME]</div><div class="logo-tagline">[TAGLINE]</div></div>
+  </div>
+  <a href="tel:[PHONE_NUMBER]" class="phone-cta">[PHONE_CTA_TEXT]</a>
+</div>
+
+<section class="hero">
+  <h1>[HEADLINE_BEFORE] <span class="offer-decor">[HEADLINE_OFFER]</span></h1>
+  <p class="offer-desc">[HERO_DESCRIPTION]</p>
+  <div class="video-container">
+    [VIDEO_EMBED_HTML]
+  </div>
+  <span class="scroll-arrow">&#x25BC;</span>
+</section>
+
+<section class="form-section">
+  <div class="form-container">
+    <h2 class="form-heading">[FORM_HEADING]</h2>
+    <div class="form-grid">
+      <div>
+        <table class="product-table">
+          <tr><th colspan="2">[PRODUCT_TABLE_TITLE]</th></tr>
+          <tr><td>[PRODUCT_NAME]</td><td>[PRODUCT_PRICE]</td></tr>
+          <tr style="font-weight:700;border-top:2px solid #eee;"><td>[TOTAL_LABEL]</td><td>[TOTAL_PRICE]</td></tr>
+        </table>
+        <div class="form-group"><label>First Name <span class="required">*</span></label><input type="text" placeholder="[FIRST_NAME_PLACEHOLDER]"></div>
+        <div class="form-group"><label>Last Name</label><input type="text" placeholder="[LAST_NAME_PLACEHOLDER]"></div>
+        <div class="form-group"><label>Email <span class="required">*</span></label><input type="email" placeholder="[EMAIL_PLACEHOLDER]"></div>
+        <div class="form-group"><label>Phone Number <span class="required">*</span></label><input type="tel" placeholder="[PHONE_PLACEHOLDER]"></div>
+      </div>
+      <div>
+        <div class="form-group"><label>Shipping Address <span class="required">*</span></label><input type="text" placeholder="[ADDRESS_PLACEHOLDER]"></div>
+        <div class="form-group"><label>Shipping Address 2</label><input type="text" placeholder="[ADDRESS2_PLACEHOLDER]"></div>
+        <div class="form-group" style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+          <div><label>City <span class="required">*</span></label><input type="text" placeholder="[CITY_PLACEHOLDER]"></div>
+          <div><label>State <span class="required">*</span></label><input type="text" placeholder="[STATE_PLACEHOLDER]"></div>
+        </div>
+        <div class="form-group" style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+          <div><label>Country</label><select><option>[COUNTRY_DEFAULT]</option></select></div>
+          <div><label>Zip Code <span class="required">*</span></label><input type="text" placeholder="[ZIP_PLACEHOLDER]"></div>
+        </div>
+        <div class="payment-group">
+          <label style="font-size:14px;font-weight:600;color:#555;margin-bottom:8px;display:block;">[PAYMENT_LABEL]</label>
+          <label class="payment-option"><input type="radio" name="payment" checked> [PAYMENT_OPTION_1]</label>
+          <label class="payment-option"><input type="radio" name="payment"> [PAYMENT_OPTION_2]</label>
+        </div>
+        <button class="submit-btn">[SUBMIT_TEXT]</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-logo">[FOOTER_LOGO]</div>
+  <p class="disclaimer">[DISCLAIMER_TEXT]</p>
+  <div class="links"><a href="#">[LEGAL_LINK_1]</a> | <a href="#">[LEGAL_LINK_2]</a></div>
+  <p class="copyright">[COPYRIGHT_TEXT]</p>
+</footer>
