@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page Generator</title>
+  <style>
+    /* ===== RESET ===== */
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    /* ===== PATTERN: pain_point_solution_hero ===== */
+    .hero-pain-point-solution {
+      display: flex;
+      min-height: 85vh;
+      background: #f8fafc;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+    
+    .hero-pain-point-solution .hero-content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 4rem 6rem;
+      max-width: 55%;
+    }
+    
+    .hero-pain-point-solution .hero-image {
+      flex: 1;
+      max-width: 45%;
+      overflow: hidden;
+      position: relative;
+    }
+    
+    .hero-pain-point-solution .hero-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    /* Element: hp01 - Service Category Headline */
+    .hero-pain-point-solution .category-headline {
+      font-size: 3.5rem;
+      font-weight: 800;
+      color: #2563eb; /* trust blue */
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      line-height: 1;
+      margin-bottom: 0.5rem;
+    }
+    
+    /* Element: hp02 - Pain-Solution Pairing */
+    .hero-pain-point-solution .pain-solution-subheadline {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #1a1a2e;
+      font-family: 'Georgia', 'Times New Roman', serif;
+      padding: 1rem 0;
+      border-top: 1px solid #1a1a2e;
+      border-bottom: 1px solid #1a1a2e;
+      display: inline-block;
+      margin-bottom: 1.5rem;
+    }
+    
+    /* Element: hp03 - Mechanism Explanation */
+    .hero-pain-point-solution .mechanism-body {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: #444;
+      max-width: 560px;
+      margin-bottom: 2rem;
+    }
+    
+    .hero-pain-point-solution .mechanism-body strong {
+      color: #1a1a2e;
+      font-weight: 600;
+    }
+    
+    /* Element: hp04 - Convergent Arrows */
+    .hero-pain-point-solution .convergent-arrows {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .hero-pain-point-solution .convergent-arrows .arrow {
+      font-size: 2rem;
+      color: #1a1a2e;
+      opacity: 0.7;
+    }
+    
+    .hero-pain-point-solution .convergent-arrows .arrow-left {
+      transform: rotate(180deg);
+    }
+    
+    /* Element: hp05 - Zero-Risk Offer CTA */
+    .hero-pain-point-solution .cta-button {
+      display: inline-block;
+      padding: 16px 40px;
+      font-size: 1.1rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #ffffff;
+      background: #f97316; /* warm orange */
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      box-shadow: 0 4px 15px rgba(249, 115, 22, 0.3);
+      transition: all 0.3s ease;
+      text-decoration: none;
+      letter-spacing: 1px;
+    }
+    
+    .hero-pain-point-solution .cta-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(249, 115, 22, 0.4);
+    }
+    
+    /* Element: hp06 - Post-CTA Microcopy */
+    .hero-pain-point-solution .post-cta-microcopy {
+      font-size: 0.95rem;
+      color: #666;
+      text-align: center;
+      margin-top: 1rem;
+      font-style: italic;
+    }
+    
+    /* Element: hp09 - Urgency Header Bar */
+    .hero-pain-point-solution .urgency-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background: transparent;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+    }
+    
+    .hero-pain-point-solution .urgency-header .brand {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .hero-pain-point-solution .urgency-header .brand-name {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #1a1a2e;
+    }
+    
+    .hero-pain-point-solution .urgency-header .brand-tagline {
+      font-size: 0.75rem;
+      color: #888;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    
+    .hero-pain-point-solution .urgency-header .contact-bar {
+      font-size: 0.95rem;
+      color: #2563eb;
+      font-weight: 600;
+    }
+    
+    .hero-pain-point-solution .urgency-header .contact-bar a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 768px) {
+      .hero-pain-point-solution {
+        flex-direction: column;
+        min-height: auto;
+      }
+      .hero-pain-point-solution .hero-content {
+        max-width: 100%;
+        padding: 3rem 2rem;
+      }
+      .hero-pain-point-solution .hero-image {
+        max-width: 100%;
+        min-height: 300px;
+      }
+      .hero-pain-point-solution .category-headline {
+        font-size: 2.5rem;
+      }
+      .hero-pain-point-solution .pain-solution-subheadline {
+        font-size: 1.8rem;
+      }
+      .hero-pain-point-solution .urgency-header {
+        position: relative;
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="hero-pain-point-solution">
+    <!-- hp09: Urgency Header -->
+    <div class="urgency-header">
+      <div class="brand">
+        <span class="brand-name">[COMPANY NAME]</span>
+        <span class="brand-tagline">[TAGLINE GOES HERE]</span>
+      </div>
+      <div class="contact-bar">
+        [URGENCY_TEXT]: <a href="tel:[PHONE]">[PHONE]</a>
+      </div>
+    </div>
+    
+    <!-- Left: Content -->
+    <div class="hero-content">
+      <!-- hp01: Category Headline -->
+      <h1 class="category-headline">[CATEGORY_UPPERCASE]</h1>
+      
+      <!-- hp02: Pain-Solution Subheadline -->
+      <h2 class="pain-solution-subheadline">[PAIN_SOLUTION_PAIRING]</h2>
+      
+      <!-- hp03: Mechanism Body -->
+      <p class="mechanism-body">[BODY_INTRO] <strong>[BENEFIT_1]</strong> [BODY_MIDDLE] <strong>[BENEFIT_2]</strong> [BODY_CLOSE]</p>
+      
+      <!-- hp04: Convergent Arrows -->
+      <div class="convergent-arrows">
+        <span class="arrow arrow-left">&#10140;</span>
+        <span class="arrow">&#10140;</span>
+      </div>
+      
+      <!-- hp05: CTA Button -->
+      <div style="text-align: center;">
+        <a href="[CTA_LINK]" class="cta-button">[CTA_TEXT_UPPERCASE]</a>
+        <!-- hp06: Post-CTA Microcopy -->
+        <p class="post-cta-microcopy">[EMPATHY_TEXT]</p>
+      </div>
+    </div>
+    
+    <!-- Right: Image -->
+    <div class="hero-image">
+      <!-- hp07 + hp08: Active Application Image with Authority Elements -->
+      <img src="[IMAGE_URL]" alt="[IMAGE_ALT]">
+    </div>
+  </section>
+</body>
+</html>
