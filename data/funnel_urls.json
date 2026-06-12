@@ -1,0 +1,92 @@
+{
+  "demo_1_diet_weight_loss": {
+    "name": "Two Step Tripwire - Diet & Weight Loss",
+    "pages": {
+      "optin": "https://demonavigator.com/demo/diet-weight-loss/",
+      "upsell": "https://demonavigator.com/demo/diet-weight-loss/#otopopup",
+      "thank_you": "https://demonavigator.com/demo/diet-weight-loss/thank-you.html",
+      "cancel": "https://demonavigator.com/demo/diet-weight-loss/order-cancelled.html"
+    }
+  },
+  "demo_2_chiropractic": {
+    "name": "Application Funnel - Chiropractic Care",
+    "pages": {
+      "optin": "https://demonavigator.com/demo/chiropractic-care/",
+      "upsell": "https://demonavigator.com/demo/chiropractic-care/order.html",
+      "appointment_confirmation": "https://demonavigator.com/demo/chiropractic-care/appointment-confirmation.html",
+      "thank_you": "https://demonavigator.com/demo/chiropractic-care/thank-you.html"
+    }
+  },
+  "demo_3_mlm_network": {
+    "name": "Summit Funnel - MLM Network",
+    "pages": {
+      "optin": "https://demonavigator.com/demo/mlm-network/",
+      "upsell": "https://demonavigator.com/demo/mlm-network/oto.html",
+      "order": "https://demonavigator.com/demo/mlm-network/order.html",
+      "thank_you": "https://demonavigator.com/demo/mlm-network/thank-you.html"
+    }
+  },
+  "demo_4_cyber_security": {
+    "name": "Summit Funnel - Cyber Security",
+    "pages": {
+      "optin": "https://demonavigator.com/demo/cyber-security-summit/index.html",
+      "upsell": "https://demonavigator.com/demo/cyber-security-summit/oto.html",
+      "order": "https://demonavigator.com/demo/cyber-security-summit/order.html",
+      "thank_you": "https://demonavigator.com/demo/cyber-security-summit/thank-you.html"
+    }
+  },
+  "demo_5_therapist": {
+    "name": "Application Funnel - Professional Therapist",
+    "pages": {
+      "optin": "https://demonavigator.com/demo/therapist/index.html",
+      "upsell": "https://demonavigator.com/demo/therapist/oto.html",
+      "order": "https://demonavigator.com/demo/therapist/order.html",
+      "thank_you": "https://demonavigator.com/demo/therapist/thank-you.html"
+    }
+  },
+  "demo_6_software_launch": {
+    "name": "Application Funnel - Software Launch",
+    "pages": {
+      "optin": "https://demonavigator.com/demo/the-software-launch/",
+      "video": "https://demonavigator.com/demo/the-software-launch/video-01.html",
+      "order": "https://demonavigator.com/demo/the-software-launch/order.html",
+      "thank_you": "https://demonavigator.com/demo/the-software-launch/thank-you.html"
+    }
+  },
+  "demo_7_10x_revenue": {
+    "name": "Application Funnel - 10X Revenue",
+    "pages": {
+      "optin": "https://demonavigator.com/demo/10x-there-revenue/index.html",
+      "order": "https://demonavigator.com/demo/10x-there-revenue/apply.html",
+      "thank_you": "https://demonavigator.com/demo/10x-there-revenue/thank-you.html",
+      "privacy": "https://demonavigator.com/demo/10x-there-revenue/privacy-policy.html"
+    }
+  },
+  "demo_8_health_coach": {
+    "name": "Application Funnel - Lifestyle & Health Coach",
+    "pages": {
+      "optin": "https://demonavigator.com/demo/health-coach/",
+      "order": "https://demonavigator.com/demo/health-coach/order.html",
+      "thank_you": "https://demonavigator.com/demo/health-coach/thank-you.html",
+      "privacy": "https://demonavigator.com/demo/health-coach/privacy-policy.html"
+    }
+  },
+  "demo_9_pet_care": {
+    "name": "Application Funnel - Pet Care",
+    "pages": {
+      "optin": "https://demonavigator.com/demo/pet-care/",
+      "upsell": "https://demonavigator.com/demo/pet-care/upsell.html",
+      "order": "https://demonavigator.com/demo/pet-care/order.html",
+      "thank_you": "https://demonavigator.com/demo/pet-care/thank-you.html"
+    }
+  },
+  "demo_10_salon_spa": {
+    "name": "Application Funnel - Beauty / Salon & Spa",
+    "pages": {
+      "optin": "https://demonavigator.com/demo/salon-spa/",
+      "upsell": "https://demonavigator.com/demo/salon-spa/upsell.html",
+      "order": "https://demonavigator.com/demo/salon-spa/order.html",
+      "thank_you": "https://demonavigator.com/demo/salon-spa/thank-you.html"
+    }
+  }
+}

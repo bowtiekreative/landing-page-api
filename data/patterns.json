@@ -2421,5 +2421,785 @@
       "confirmation-page",
       "upsell-ready"
     ]
+  },
+  {
+    "pattern_id": "diet_weight_loss_tripwire",
+    "name": "Diet & Weight Loss Tripwire Funnel",
+    "description": "A complete 4-page sales funnel for a diet/weight loss supplement product. Page 1: Long-form VSL optin page with scarcity countdown, product hero, pain-point targeting, scientific proof, before/after testimonials, review grid, FAQ accordion. Page 2: One-time upsell (hash-triggered popup variant). Page 3: Order confirmation/thank you with product receipt and next steps. Page 4: Order cancelled confirmation.",
+    "first_principles": {
+      "scarcity_trigger": "Countdown timer + limited stock warning creates urgency to act immediately",
+      "risk_reversal": "Pay shipping only ($6.98) eliminates financial risk barrier",
+      "social_proof_layers": "Before/after photos + review grid with star ratings + '75,654 samples shipped' builds multi-layer trust",
+      "pain_point_mirroring": "'If you've tried and failed' language mirrors the user's exact frustration",
+      "scientific_authority": "'100% scientifically proven' badge with lab imagery adds credibility"
+    },
+    "pages": {
+      "optin": "https://demonavigator.com/demo/diet-weight-loss/",
+      "upsell": "https://demonavigator.com/demo/diet-weight-loss/#otopopup",
+      "thank_you": "https://demonavigator.com/demo/diet-weight-loss/thank-you.html",
+      "cancel": "https://demonavigator.com/demo/diet-weight-loss/order-cancelled.html"
+    },
+    "tags": [
+      "funnel",
+      "diet",
+      "weight-loss",
+      "tripwire",
+      "vsl",
+      "health",
+      "supplement",
+      "optin",
+      "thank-you"
+    ],
+    "elements": [
+      {
+        "element_id": "dw01",
+        "name": "Scarcity Countdown Timer + Warning Banner",
+        "type": "urgency",
+        "specs": {
+          "position": "top of hero below headline",
+          "format": "00 Days : 00 Hours : 00 Minutes : 00 Seconds",
+          "label": "WARNING: Limited Stock — Order within 24hrs",
+          "style": "red/orange warning box with countdown inline"
+        },
+        "variants": [
+          {
+            "label": "Countdown timer",
+            "example": "00:00:00 format in red warning box"
+          }
+        ]
+      },
+      {
+        "element_id": "dw02",
+        "name": "Free + Shipping Only Offer CTA",
+        "type": "cta",
+        "specs": {
+          "text": "YES! I Want Diet & Weight Loss Product (Pay Shipping Only $6.98)",
+          "color": "orange (#f97316)",
+          "size": "full-width button",
+          "hover": "brightness(1.1)"
+        }
+      },
+      {
+        "element_id": "dw03",
+        "name": "Before/After Transformation Cards",
+        "type": "testimonial",
+        "specs": {
+          "layout": "3 angled cards",
+          "labels": "Jane Doe — City ST",
+          "style": "angled rotation for visual interest"
+        }
+      },
+      {
+        "element_id": "dw04",
+        "name": "Review Grid (6 Cards, 2x3)",
+        "type": "social_proof",
+        "specs": {
+          "layout": "2x3 grid",
+          "stars": "5 stars",
+          "badge": "Verified Buyer"
+        }
+      },
+      {
+        "element_id": "dw05",
+        "name": "FAQ Accordion (7 Questions)",
+        "type": "faq",
+        "specs": {
+          "questions": 7
+        }
+      },
+      {
+        "element_id": "dw06",
+        "name": "Thank You Product Table",
+        "type": "receipt",
+        "specs": {
+          "header": "List of Purchased Products",
+          "columns": "Product | Price",
+          "price": "$97.00"
+        }
+      },
+      {
+        "element_id": "dw07",
+        "name": "Cancel Confirmation Page",
+        "type": "confirmation",
+        "specs": {
+          "headline": "Cancelled — Your Order is Cancelled!",
+          "table": "Dynamically Updated | $97.00"
+        }
+      }
+    ],
+    "element_count": 7,
+    "evidence_count": 0
+  },
+  {
+    "pattern_id": "chiropractic_demo_funnel",
+    "name": "Chiropractic Care Application Funnel",
+    "description": "A 4-page healthcare funnel: Long-form optin landing page with hero, benefits, pain-motivation, beliefs, therapies, testimonials, FAQ → Order form page → Appointment confirmation page with phone CTA → Thank you page with product receipt.",
+    "first_principles": {
+      "trust_building": "Blue medical palette + doctor credentials + before/after proof establishes authority",
+      "pain_to_action": "'Why are you suffering?' reframes pain as solvable with one call",
+      "multi_touch_cta": "CTA repeated 5+ times across the page — the user never has to search for how to convert",
+      "appointment_to_upsell": "Confirmation page drives phone calls (highest converting channel) + upsell to order"
+    },
+    "pages": {
+      "optin": "https://demonavigator.com/demo/chiropractic-care/",
+      "order": "https://demonavigator.com/demo/chiropractic-care/order.html",
+      "appointment_confirmation": "https://demonavigator.com/demo/chiropractic-care/appointment-confirmation.html",
+      "thank_you": "https://demonavigator.com/demo/chiropractic-care/thank-you.html"
+    },
+    "tags": [
+      "funnel",
+      "chiropractic",
+      "healthcare",
+      "optin",
+      "order-form",
+      "appointment",
+      "thank-you"
+    ],
+    "elements": [
+      {
+        "element_id": "cd01",
+        "name": "Phone CTA Header Bar",
+        "type": "header",
+        "specs": {
+          "logo": "Company Name",
+          "phone": "(123) 456-7890",
+          "label": "GET RELIEF NOW : CALL TODAY"
+        }
+      },
+      {
+        "element_id": "cd02",
+        "name": "Category + Benefit Hero Headline",
+        "type": "headline",
+        "specs": {
+          "category": "CHIROPRACTIC (blue, uppercase)",
+          "benefit": "Care for Back Pain (script)",
+          "body": "Chiropractic adjustment definition"
+        }
+      },
+      {
+        "element_id": "cd03",
+        "name": "Orange Free Consultation CTA (Repeated 4x)",
+        "type": "cta",
+        "specs": {
+          "text": "REQUEST A FREE CONSULTATION",
+          "subtext": "You Don't Have To Suffer Anymore...",
+          "color": "orange gradient"
+        }
+      },
+      {
+        "element_id": "cd04",
+        "name": "3-Column Benefit Grid (Blue BG)",
+        "type": "features",
+        "specs": {
+          "columns": "100% NATURAL | RAPID RELIEF | COVERED VISITS",
+          "icons": "leaf | clock | insurance"
+        }
+      },
+      {
+        "element_id": "cd05",
+        "name": "Pain Motivation Section",
+        "type": "motivation",
+        "specs": {
+          "headline": "So Why Are You Suffering From Back Pain?",
+          "bg": "dark blue gradient"
+        }
+      },
+      {
+        "element_id": "cd06",
+        "name": "Doctor Video + Credentials",
+        "type": "authority",
+        "specs": {
+          "doctor": "John Doe — Board Certified Chiropractor",
+          "credentials": [
+            "70+ yrs experience",
+            "Hundreds of clients",
+            "Preferred provider"
+          ]
+        }
+      },
+      {
+        "element_id": "cd07",
+        "name": "4 Therapy Services Grid",
+        "type": "services",
+        "specs": {
+          "therapies": [
+            "ADJUSTMENTS",
+            "LASER THERAPY",
+            "MASSAGE",
+            "REVERSE GRAVITY"
+          ]
+        }
+      },
+      {
+        "element_id": "cd08",
+        "name": "Appointment Confirmed Page",
+        "type": "confirmation",
+        "specs": {
+          "headline": "APPOINTMENT CONFIRMED",
+          "phone": "(123) 456-7890",
+          "upsell": "One More Offer"
+        }
+      }
+    ],
+    "element_count": 8,
+    "evidence_count": 0
+  },
+  {
+    "pattern_id": "mlm_network_summit",
+    "name": "MLM Network Summit Funnel",
+    "description": "A summit/event registration funnel for MLM Network professionals. Page 1: Event landing with speaker lineup, schedule, testimonials, FAQ, free ticket CTA. Page 2: One-time offer upsell for lifetime access ($67). Page 3: Order/checkout form. Page 4: Thank you with access details, Facebook group, and event highlights video.",
+    "first_principles": {
+      "event_scarcity": "Limited seats + free ticket CTA drives registration volume",
+      "upsell_after_free": "Free ticket → paid upgrade ($67) captures value after commitment",
+      "social_proof": "12 speakers + 20 sessions + 16 hours consulting builds event credibility",
+      "community_access": "Facebook group CTA on thank-you page builds post-event engagement"
+    },
+    "pages": {
+      "optin": "https://demonavigator.com/demo/mlm-network/",
+      "oto": "https://demonavigator.com/demo/mlm-network/oto.html",
+      "order": "https://demonavigator.com/demo/mlm-network/order.html",
+      "thank_you": "https://demonavigator.com/demo/mlm-network/thank-you.html"
+    },
+    "tags": [
+      "funnel",
+      "mlm",
+      "network",
+      "summit",
+      "event",
+      "registration",
+      "optin",
+      "upsell"
+    ],
+    "elements": [
+      {
+        "element_id": "mlm01",
+        "name": "Event Hero + Free Ticket CTA",
+        "type": "hero",
+        "specs": {
+          "headline": "Simplest Way To Expand Your MLM Network",
+          "event": "Dec 18-20, Westside Trade Center",
+          "cta": "Claim Your Free Ticket Now!"
+        }
+      },
+      {
+        "element_id": "mlm02",
+        "name": "12 Speaker Grid",
+        "type": "authority",
+        "specs": {
+          "speakers": "12 MLM experts",
+          "host": "Jane Doe"
+        }
+      },
+      {
+        "element_id": "mlm03",
+        "name": "Summit Stats (3 Key Numbers)",
+        "type": "stats",
+        "specs": {
+          "stats": [
+            "10 Speakers",
+            "20+ Sessions",
+            "16 Hours Consulting"
+          ]
+        }
+      },
+      {
+        "element_id": "mlm04",
+        "name": "One-Time Upsell ($67)",
+        "type": "upsell",
+        "specs": {
+          "value": "$297 → $67",
+          "contents": "5 stack items"
+        }
+      },
+      {
+        "element_id": "mlm05",
+        "name": "Order Form Page",
+        "type": "order",
+        "specs": {
+          "price": "$30.00",
+          "payment": "PayPal or card"
+        }
+      }
+    ],
+    "element_count": 5,
+    "evidence_count": 0
+  },
+  {
+    "pattern_id": "cyber_security_summit",
+    "name": "Cyber Security Summit Funnel",
+    "description": "A 4-page summit registration funnel: Event landing (STEVE MARTIN host, 70+ hours, 11 speakers, schedule, testimonials, FAQ) → One-time offer upsell to lifetime access ($247) → Order/checkout form → Thank you with purchase receipt and schedule link.",
+    "first_principles": {
+      "authority_host": "Named host (Steve Martin) + 11 expert speakers builds event authority",
+      "high_value_upsell": "$485 value → $247 creates massive perceived discount (49% off)",
+      "time_urgency": "Countdown timer + '800 seats, few left' drives registration action",
+      "schedule_transparency": "Full 3-day schedule listed builds attendee confidence"
+    },
+    "pages": {
+      "optin": "https://demonavigator.com/demo/cyber-security-summit/index.html",
+      "oto": "https://demonavigator.com/demo/cyber-security-summit/oto.html",
+      "order": "https://demonavigator.com/demo/cyber-security-summit/order.html",
+      "thank_you": "https://demonavigator.com/demo/cyber-security-summit/thank-you.html"
+    },
+    "tags": [
+      "funnel",
+      "cyber-security",
+      "summit",
+      "event",
+      "tech",
+      "registration",
+      "upsell"
+    ],
+    "elements": [
+      {
+        "element_id": "cs01",
+        "name": "Summit Hero + Countdown",
+        "type": "hero",
+        "specs": {
+          "title": "SUMMIT 2024 CYBER SECURITY TECH",
+          "host": "STEVE MARTIN",
+          "seats": "800 — Few Left",
+          "hours": "70+"
+        }
+      },
+      {
+        "element_id": "cs02",
+        "name": "Why Join + Topics + Speakers",
+        "type": "content",
+        "specs": {
+          "benefits": 3,
+          "topics": 4,
+          "speakers": 7
+        }
+      },
+      {
+        "element_id": "cs03",
+        "name": "3-Day Schedule Table",
+        "type": "schedule",
+        "specs": {
+          "days": 3,
+          "slots": "8 per day"
+        }
+      },
+      {
+        "element_id": "cs04",
+        "name": "OTO Upsell ($247)",
+        "type": "upsell",
+        "specs": {
+          "headline": "You Will NEVER See This Again",
+          "value": "$485 → $247"
+        }
+      }
+    ],
+    "element_count": 4,
+    "evidence_count": 0
+  },
+  {
+    "pattern_id": "therapist_application",
+    "name": "Professional Therapist Application Funnel",
+    "description": "A 4-page therapy services funnel: Service landing (clinical psychologist, therapy types for men/women/couples/children, testimonials, FAQ) → One-time offer upsell ($67 Life Changing Kit) → Order form → Thank you with Facebook group and product receipt.",
+    "first_principles": {
+      "empathy_first": "'I Could Help You Too' + 'Make A Positive Change' — emotional framing before clinical detail",
+      "service_menu": "3 therapy types (child, teen, parent) gives clear options for different visitors",
+      "kit_upsell": "Physical product upsell after free consultation captures additional revenue",
+      "low_friction_cta": "'Get a Free Consultation' with no-obligation language reduces barrier"
+    },
+    "pages": {
+      "optin": "https://demonavigator.com/demo/therapist/index.html",
+      "oto": "https://demonavigator.com/demo/therapist/oto.html",
+      "order": "https://demonavigator.com/demo/therapist/order.html",
+      "thank_you": "https://demonavigator.com/demo/therapist/thank-you.html"
+    },
+    "tags": [
+      "funnel",
+      "therapy",
+      "psychology",
+      "healthcare",
+      "optin",
+      "upsell",
+      "mental-health"
+    ],
+    "elements": [
+      {
+        "element_id": "th01",
+        "name": "Therapist Hero + Free Consult CTA",
+        "type": "hero",
+        "specs": {
+          "tagline": "I Could Help You Too",
+          "cta": "GET A FREE CONSULTATION"
+        }
+      },
+      {
+        "element_id": "th02",
+        "name": "3 Service Icons",
+        "type": "services",
+        "specs": {
+          "types": [
+            "Men/Women",
+            "Couples",
+            "Children"
+          ]
+        }
+      },
+      {
+        "element_id": "th03",
+        "name": "3 Therapy Types",
+        "type": "therapies",
+        "specs": {
+          "types": [
+            "Child-Centered Play",
+            "Adolescent/Teen",
+            "Parent Counseling"
+          ]
+        }
+      },
+      {
+        "element_id": "th04",
+        "name": "OTO Upsell ($67 Kit)",
+        "type": "upsell",
+        "specs": {
+          "value": "$1500 → $67",
+          "product": "Life Changing Kit"
+        }
+      }
+    ],
+    "element_count": 4,
+    "evidence_count": 0
+  },
+  {
+    "pattern_id": "software_launch_funnel",
+    "name": "Software Launch Application Funnel",
+    "description": "A 4-page SaaS/product funnel: Feature landing page with 6 core features, testimonials, FAQ, lifetime access CTA ($97) → Video page (3 product videos) → Order/checkout form → Thank you with purchase receipt and testimonials.",
+    "first_principles": {
+      "feature_showcase": "6 feature icons with descriptions show breadth before depth",
+      "video_confirmation": "Separate video page lets users see the product in action before buying",
+      "lifetime_value": "'Lifetime access for $97' eliminates subscription fear",
+      "expert_endorsement": "Industry expert titles on testimonials add B2B credibility"
+    },
+    "pages": {
+      "optin": "https://demonavigator.com/demo/the-software-launch/",
+      "video": "https://demonavigator.com/demo/the-software-launch/video-01.html",
+      "order": "https://demonavigator.com/demo/the-software-launch/order.html",
+      "thank_you": "https://demonavigator.com/demo/the-software-launch/thank-you.html"
+    },
+    "tags": [
+      "funnel",
+      "software",
+      "saas",
+      "tech",
+      "launch",
+      "optin",
+      "video",
+      "lifetime-access"
+    ],
+    "elements": [
+      {
+        "element_id": "sl01",
+        "name": "Software Hero + $97 CTA",
+        "type": "hero",
+        "specs": {
+          "cta": "GET LIFETIME ACCESS FOR $97",
+          "headline": "A Game-Changing Productive Software Platform"
+        }
+      },
+      {
+        "element_id": "sl02",
+        "name": "6 Feature Icons",
+        "type": "features",
+        "specs": {
+          "features": [
+            "Friendly Admin",
+            "Well Documented",
+            "Highly Customizable",
+            "Fully Responsive",
+            "Safe & Secure",
+            "Trial Download"
+          ]
+        }
+      },
+      {
+        "element_id": "sl03",
+        "name": "3 Product Videos Page",
+        "type": "video",
+        "specs": {
+          "videos": 3
+        }
+      },
+      {
+        "element_id": "sl04",
+        "name": "Software Highlights",
+        "type": "highlights",
+        "specs": {
+          "highlights": [
+            "Clean Code",
+            "Bootstrap 4",
+            "Creative UI"
+          ]
+        }
+      }
+    ],
+    "element_count": 4,
+    "evidence_count": 0
+  },
+  {
+    "pattern_id": "ten_x_revenue_funnel",
+    "name": "10X Revenue Application Funnel",
+    "description": "A 4-page business coaching funnel: High-scarcity landing page (only 100 spots, 'Never Lower The Target' motivation, 3 benefits, 3 secrets, testimonials, FAQ) → Short application form → Thank you with congratulations → Privacy policy page.",
+    "first_principles": {
+      "extreme_scarcity": "Only 100 spots, most renew year after year — highest tier of artificial scarcity",
+      "challenge_framing": "'Simply work hard and BE BETTER' positions the program as demanding — attracting only serious applicants",
+      "no_quit_guarantee": "'We don't stop until you get it done' eliminates the fear of wasting money",
+      "application_gate": "Short application form filters leads before full commitment"
+    },
+    "pages": {
+      "optin": "https://demonavigator.com/demo/10x-there-revenue/index.html",
+      "apply": "https://demonavigator.com/demo/10x-there-revenue/apply.html",
+      "thank_you": "https://demonavigator.com/demo/10x-there-revenue/thank-you.html",
+      "privacy": "https://demonavigator.com/demo/10x-there-revenue/privacy-policy.html"
+    },
+    "tags": [
+      "funnel",
+      "business",
+      "coaching",
+      "revenue",
+      "scarcity",
+      "application",
+      "optin"
+    ],
+    "elements": [
+      {
+        "element_id": "10x01",
+        "name": "Extreme Scarcity Hero",
+        "type": "hero",
+        "specs": {
+          "spots": "Only 100",
+          "headline": "Never Lower The Target",
+          "cta": "YES! I AM READY TO 10X Revenue",
+          "guarantee": "We don't stop until you get it done"
+        }
+      },
+      {
+        "element_id": "10x02",
+        "name": "3 Benefits + 3 Secrets",
+        "type": "benefits",
+        "specs": {
+          "benefits": 3,
+          "secrets": 3
+        }
+      },
+      {
+        "element_id": "10x03",
+        "name": "Application Form",
+        "type": "application",
+        "specs": {
+          "headline": "Fill Out The Short Application Below Now..."
+        }
+      }
+    ],
+    "element_count": 3,
+    "evidence_count": 0
+  },
+  {
+    "pattern_id": "health_coach_funnel",
+    "name": "Lifestyle & Health Coach Application Funnel",
+    "description": "A 4-page health coaching funnel: Service landing page (Jane Doe coach, 90-Day Total Body Transformation, 3 focus areas: nutrition, lifestyle, mind/body) → Order/checkout form ($30) → Thank you with next steps and video → Privacy policy.",
+    "first_principles": {
+      "coach_personality": "Named coach (Jane Doe) with photo humanizes the program and builds personal trust",
+      "holistic_framing": "3 focus areas (nutrition, lifestyle, mind/body) positions the program as comprehensive",
+      "fast_action_urgency": "'FAST Action Takers Only' creates superior commitment framing",
+      "transformation_timeline": "'90-Day' gives a concrete, achievable timeframe"
+    },
+    "pages": {
+      "optin": "https://demonavigator.com/demo/health-coach/",
+      "order": "https://demonavigator.com/demo/health-coach/order.html",
+      "thank_you": "https://demonavigator.com/demo/health-coach/thank-you.html",
+      "privacy": "https://demonavigator.com/demo/health-coach/privacy-policy.html"
+    },
+    "tags": [
+      "funnel",
+      "health",
+      "coach",
+      "lifestyle",
+      "transformation",
+      "optin",
+      "nutrition"
+    ],
+    "elements": [
+      {
+        "element_id": "hc01",
+        "name": "Coach Branded Hero",
+        "type": "hero",
+        "specs": {
+          "coach": "Jane Doe",
+          "program": "90-Day Total Body Transformation",
+          "target": "FAST Action Takers Only"
+        }
+      },
+      {
+        "element_id": "hc02",
+        "name": "3 Focus Areas",
+        "type": "features",
+        "specs": {
+          "areas": [
+            "Nutrition Strategies",
+            "Lifestyle Factors",
+            "Mind/Body Connection"
+          ]
+        }
+      },
+      {
+        "element_id": "hc03",
+        "name": "3 Program Services",
+        "type": "services",
+        "specs": {
+          "services": [
+            "Meal Plans",
+            "Metabolism Testing",
+            "Nutrition Counseling"
+          ]
+        }
+      }
+    ],
+    "element_count": 3,
+    "evidence_count": 0
+  },
+  {
+    "pattern_id": "pet_care_funnel",
+    "name": "Pet Care Application Funnel",
+    "description": "A 4-page pet care services funnel: Service landing ('We Pampering Pets', sitting/minding/training/grooming services, spot-your-pet app feature, testimonials, FAQ, trial CTA) → Upsell page (50% off original $99 → $79) → Order/checkout form with subscription → Thank you with support links.",
+    "first_principles": {
+      "service_menu": "4 pet services (sitting, minding, training, grooming) gives pet owners clear options",
+      "app_integration": "'Spot your pet anytime, anywhere' — tech-enabled trust for anxious pet owners",
+      "subscription_model": "Monthly pricing creates recurring revenue from pet care needs",
+      "trial_offer": "'Wish to Require a Trial?' — low-barrier entry before full commitment"
+    },
+    "pages": {
+      "optin": "https://demonavigator.com/demo/pet-care/",
+      "upsell": "https://demonavigator.com/demo/pet-care/upsell.html",
+      "order": "https://demonavigator.com/demo/pet-care/order.html",
+      "thank_you": "https://demonavigator.com/demo/pet-care/thank-you.html"
+    },
+    "tags": [
+      "funnel",
+      "pet-care",
+      "pets",
+      "dogs",
+      "service",
+      "subscription",
+      "optin",
+      "app"
+    ],
+    "elements": [
+      {
+        "element_id": "pc01",
+        "name": "Pet Service Hero + App CTA",
+        "type": "hero",
+        "specs": {
+          "headline": "We Pampering Pets, Just as You Do!",
+          "phone": "+1-23-456-7890",
+          "cta": "Download App"
+        }
+      },
+      {
+        "element_id": "pc02",
+        "name": "4 Pet Services",
+        "type": "services",
+        "specs": {
+          "services": [
+            "Sitting",
+            "Minding",
+            "Training",
+            "Grooming"
+          ]
+        }
+      },
+      {
+        "element_id": "pc03",
+        "name": "Upsell ($79 Monthly)",
+        "type": "upsell",
+        "specs": {
+          "original": "$99",
+          "offer": "$79",
+          "discount": "50%"
+        }
+      }
+    ],
+    "element_count": 3,
+    "evidence_count": 0
+  },
+  {
+    "pattern_id": "salon_spa_funnel",
+    "name": "Beauty Salon & Spa Application Funnel",
+    "description": "A 4-page beauty/salon funnel: Service landing (8 beauty services: makeup, haircut, color, setting, photography, skin, fashion, bridal, testimonials, portfolio) → Upsell page (50% off offer → $150) → Order/checkout form → Thank you with steps and social links.",
+    "first_principles": {
+      "visual_portfolio": "8 service images + 8 portfolio images show the quality before asking for commitment",
+      "service_breadth": "8 distinct beauty services positions salon as one-stop-shop",
+      "bridal_premium": "Bridal makeup listed as separate service — high-ticket premium offering",
+      "portfolio_as_proof": "'See Our Work!' gallery acts as visual social proof before the upsell"
+    },
+    "pages": {
+      "optin": "https://demonavigator.com/demo/salon-spa/",
+      "upsell": "https://demonavigator.com/demo/salon-spa/upsell.html",
+      "order": "https://demonavigator.com/demo/salon-spa/order.html",
+      "thank_you": "https://demonavigator.com/demo/salon-spa/thank-you.html"
+    },
+    "tags": [
+      "funnel",
+      "beauty",
+      "salon",
+      "spa",
+      "makeup",
+      "hair",
+      "services",
+      "optin",
+      "bridal"
+    ],
+    "elements": [
+      {
+        "element_id": "ss01",
+        "name": "Salon Hero + Book CTA",
+        "type": "hero",
+        "specs": {
+          "headline": "Beauty is a State of Mind and Expression.",
+          "cta": "Book Appointment",
+          "phone": "+1 234 567 890"
+        }
+      },
+      {
+        "element_id": "ss02",
+        "name": "8 Service Cards",
+        "type": "services",
+        "specs": {
+          "services": [
+            "Make Up",
+            "Hair Color",
+            "Hair Cut",
+            "Hair Setting",
+            "Photoshoot",
+            "Skin Treatment",
+            "Fashion Make Up",
+            "Bridal Make Up"
+          ]
+        }
+      },
+      {
+        "element_id": "ss03",
+        "name": "Portfolio Gallery (8 Images)",
+        "type": "gallery",
+        "specs": {
+          "images": 8
+        }
+      },
+      {
+        "element_id": "ss04",
+        "name": "Upsell 50% Off",
+        "type": "upsell",
+        "specs": {
+          "original": "$300",
+          "offer": "$150"
+        }
+      }
+    ],
+    "element_count": 4,
+    "evidence_count": 0
   }
 ]
