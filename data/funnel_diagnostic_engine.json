@@ -1,0 +1,885 @@
+{
+  "name": "Funnel Diagnostic Engine",
+  "description": "Maps business conditions to exact funnel architecture, page types, elements, copy formulas, and design patterns",
+  "model": "EventMath chain + split/path decision tree",
+  "condition_dimensions": {
+    "industry": {
+      "description": "What industry/business type",
+      "values": [
+        "healthcare",
+        "ecommerce_physical",
+        "ecommerce_digital",
+        "saas",
+        "service_local",
+        "service_professional",
+        "coaching",
+        "education_course",
+        "event_summit",
+        "nonprofit",
+        "publishing_media",
+        "real_estate"
+      ],
+      "weight": 10
+    },
+    "price_tier": {
+      "description": "Price point of primary offer",
+      "values": [
+        "free_zero",
+        "low_1_50",
+        "medium_50_200",
+        "high_200_1000",
+        "premium_1000_5000",
+        "enterprise_5000plus"
+      ],
+      "weight": 9
+    },
+    "customer_awareness": {
+      "description": "How aware is the customer of their problem/solution",
+      "values": [
+        "unaware",
+        "problem_aware",
+        "solution_aware",
+        "product_aware",
+        "most_aware"
+      ],
+      "weight": 8
+    },
+    "purchase_frequency": {
+      "description": "How often does the customer buy",
+      "values": [
+        "one_time",
+        "recurring_monthly",
+        "recurring_yearly",
+        "infrequent",
+        "lifetime"
+      ],
+      "weight": 7
+    },
+    "customer_relationship": {
+      "description": "Relationship with customer",
+      "values": [
+        "cold_new",
+        "warm_referral",
+        "returning",
+        "partner_affiliate",
+        "enterprise_account"
+      ],
+      "weight": 6
+    },
+    "urgency": {
+      "description": "How urgently does the customer need a solution",
+      "values": [
+        "immediate_hours",
+        "same_week",
+        "this_month",
+        "no_rush",
+        "future_planning"
+      ],
+      "weight": 5
+    },
+    "commitment_level": {
+      "description": "How much commitment is required",
+      "values": [
+        "low_email",
+        "medium_form",
+        "high_payment",
+        "very_high_application_callback"
+      ],
+      "weight": 4
+    },
+    "distribution_channel": {
+      "description": "Primary channel for traffic",
+      "values": [
+        "organic_search",
+        "paid_ads",
+        "email_list",
+        "social_organic",
+        "social_paid",
+        "referral",
+        "in_person",
+        "partner"
+      ],
+      "weight": 3
+    },
+    "buyer_type": {
+      "description": "Who is buying",
+      "values": [
+        "b2c_individual",
+        "b2b_small_business",
+        "b2b_enterprise",
+        "b2b_agency",
+        "nonprofit_org"
+      ],
+      "weight": 2
+    }
+  },
+  "decision_rules": [
+    {
+      "name": "tripwire_funnel",
+      "when": {
+        "industry_contains": [
+          "ecommerce_physical",
+          "ecommerce_digital"
+        ],
+        "price_tier": [
+          "low_1_50",
+          "medium_50_200"
+        ],
+        "customer_awareness": [
+          "problem_aware",
+          "solution_aware"
+        ],
+        "purchase_frequency": [
+          "one_time"
+        ],
+        "commitment_level": [
+          "low_email",
+          "medium_form"
+        ]
+      },
+      "then": {
+        "funnel": "tripwire",
+        "pages": [
+          "optin",
+          "upsell",
+          "order",
+          "thank_you"
+        ],
+        "elements": {
+          "optin": [
+            "hero_headline",
+            "subheadline",
+            "product_image",
+            "benefit_bullets",
+            "testimonials",
+            "countdown_timer",
+            "cta_button"
+          ],
+          "upsell": [
+            "wait_headline",
+            "value_stack",
+            "strikethrough_pricing",
+            "discount_price",
+            "guarantee"
+          ],
+          "order": [
+            "contact_form",
+            "shipping_form",
+            "payment_selection",
+            "product_table",
+            "submit_button"
+          ],
+          "thank_you": [
+            "congrats_headline",
+            "product_receipt",
+            "facebook_group",
+            "community_cta"
+          ]
+        },
+        "copy_formula": "pain_agitation_solution",
+        "design_palette": "blue_orange",
+        "urgency_pattern": "countdown_timer"
+      }
+    },
+    {
+      "name": "application_funnel",
+      "when": {
+        "industry_contains": [
+          "healthcare",
+          "service_professional",
+          "coaching"
+        ],
+        "price_tier": [
+          "high_200_1000",
+          "premium_1000_5000"
+        ],
+        "customer_awareness": [
+          "problem_aware",
+          "product_aware"
+        ],
+        "commitment_level": [
+          "very_high_application_callback"
+        ],
+        "buyer_type": [
+          "b2c_individual",
+          "b2b_small_business"
+        ]
+      },
+      "then": {
+        "funnel": "application",
+        "pages": [
+          "landing_page",
+          "application",
+          "appointment_confirmation",
+          "thank_you"
+        ],
+        "elements": {
+          "landing_page": [
+            "hero_category_headline",
+            "pain_solution_pairing",
+            "benefit_grid",
+            "testimonials",
+            "faq",
+            "phone_cta_header",
+            "cta_button"
+          ],
+          "application": [
+            "contact_form",
+            "service_selection",
+            "availability_picker",
+            "submit_button"
+          ],
+          "appointment_confirmation": [
+            "confirmed_headline",
+            "email_check_prompt",
+            "expectation_text",
+            "urgent_phone",
+            "upsell_button"
+          ],
+          "thank_you": [
+            "congrats_headline",
+            "product_receipt",
+            "next_steps"
+          ]
+        },
+        "copy_formula": "empathy_authority",
+        "design_palette": "medical_blue_warm_cta",
+        "urgency_pattern": "callback_promise_24hr"
+      }
+    },
+    {
+      "name": "summit_funnel",
+      "when": {
+        "industry_contains": [
+          "event_summit",
+          "education_course",
+          "coaching"
+        ],
+        "price_tier": [
+          "free_zero",
+          "low_1_50"
+        ],
+        "purchase_frequency": [
+          "one_time",
+          "lifetime"
+        ],
+        "customer_awareness": [
+          "problem_aware",
+          "solution_aware"
+        ],
+        "distribution_channel": [
+          "organic_search",
+          "paid_ads",
+          "email_list"
+        ]
+      },
+      "then": {
+        "funnel": "summit",
+        "pages": [
+          "registration",
+          "oto_upsell",
+          "order",
+          "thank_you"
+        ],
+        "elements": {
+          "registration": [
+            "event_headline",
+            "speaker_grid",
+            "schedule_table",
+            "value_proposition",
+            "testimonials",
+            "register_cta"
+          ],
+          "oto_upsell": [
+            "wait_headline",
+            "lifetime_access_offer",
+            "value_stack",
+            "discount_pricing",
+            "testimonials"
+          ],
+          "order": [
+            "contact_form",
+            "billing_form",
+            "payment_selection",
+            "item_table"
+          ],
+          "thank_you": [
+            "welcome_headline",
+            "access_instructions",
+            "facebook_group",
+            "event_highlights"
+          ]
+        },
+        "copy_formula": "event_authority_scarcity",
+        "design_palette": "dark_hero_bright_cta",
+        "urgency_pattern": "seat_countdown"
+      }
+    },
+    {
+      "name": "webinar_funnel",
+      "when": {
+        "industry_contains": [
+          "coaching",
+          "education_course",
+          "saas",
+          "publishing_media"
+        ],
+        "price_tier": [
+          "medium_50_200",
+          "high_200_1000"
+        ],
+        "customer_awareness": [
+          "solution_aware",
+          "product_aware"
+        ],
+        "commitment_level": [
+          "low_email",
+          "medium_form"
+        ],
+        "distribution_channel": [
+          "paid_ads",
+          "email_list",
+          "social_organic"
+        ]
+      },
+      "then": {
+        "funnel": "webinar",
+        "pages": [
+          "registration",
+          "indoctrination",
+          "broadcast",
+          "replay",
+          "offer",
+          "order",
+          "thank_you"
+        ],
+        "elements": {
+          "registration": [
+            "webinar_headline",
+            "date_time",
+            "speaker_photo",
+            "value_promise",
+            "register_cta"
+          ],
+          "broadcast": [
+            "video_player",
+            "slide_deck",
+            "chat_box",
+            "progress_bar"
+          ],
+          "offer": [
+            "limited_time_offer",
+            "bonus_stack",
+            "strikethrough_pricing",
+            "cta_button"
+          ],
+          "order": [
+            "contact_form",
+            "payment_selection"
+          ],
+          "thank_you": [
+            "congrats_headline",
+            "access_link",
+            "community_cta"
+          ]
+        },
+        "copy_formula": "storytelling_authority",
+        "design_palette": "dark_hero_bright_cta",
+        "urgency_pattern": "countdown_timer"
+      }
+    },
+    {
+      "name": "subscription_funnel",
+      "when": {
+        "industry_contains": [
+          "saas",
+          "coaching",
+          "publishing_media",
+          "education_course"
+        ],
+        "price_tier": [
+          "low_1_50",
+          "medium_50_200"
+        ],
+        "purchase_frequency": [
+          "recurring_monthly",
+          "recurring_yearly"
+        ],
+        "customer_awareness": [
+          "solution_aware",
+          "product_aware",
+          "most_aware"
+        ],
+        "buyer_type": [
+          "b2c_individual",
+          "b2b_small_business"
+        ]
+      },
+      "then": {
+        "funnel": "subscription",
+        "pages": [
+          "landing_page",
+          "free_trial",
+          "onboarding",
+          "paid_conversion",
+          "retention",
+          "win_back"
+        ],
+        "elements": {
+          "landing_page": [
+            "feature_showcase",
+            "pricing_table",
+            "testimonials",
+            "faq",
+            "trial_cta"
+          ],
+          "onboarding": [
+            "welcome_email",
+            "first_action_prompt",
+            "progress_tracker",
+            "support_cta"
+          ],
+          "retention": [
+            "value_reminder",
+            "usage_stats",
+            "community_cta",
+            "upgrade_offer"
+          ],
+          "win_back": [
+            "we_miss_you",
+            "whats_new",
+            "special_offer"
+          ]
+        },
+        "copy_formula": "feature_benefit_outcome",
+        "design_palette": "clean_white_brand_accent",
+        "urgency_pattern": "trial_expiry"
+      }
+    },
+    {
+      "name": "quiz_funnel",
+      "when": {
+        "industry_contains": [
+          "ecommerce_physical",
+          "ecommerce_digital",
+          "coaching",
+          "healthcare"
+        ],
+        "customer_awareness": [
+          "unaware",
+          "problem_aware"
+        ],
+        "price_tier": [
+          "low_1_50",
+          "medium_50_200",
+          "high_200_1000"
+        ],
+        "distribution_channel": [
+          "paid_ads",
+          "social_organic",
+          "social_paid"
+        ]
+      },
+      "then": {
+        "funnel": "quiz",
+        "pages": [
+          "quiz_landing",
+          "quiz_questions",
+          "quiz_results",
+          "recommendation",
+          "order",
+          "thank_you"
+        ],
+        "elements": {
+          "quiz_landing": [
+            "quiz_headline",
+            "benefit_promise",
+            "question_count",
+            "start_quiz_cta"
+          ],
+          "quiz_questions": [
+            "question_progress",
+            "question_text",
+            "answer_options",
+            "next_button"
+          ],
+          "quiz_results": [
+            "result_personality",
+            "personalized_message",
+            "recommendation",
+            "cta_button"
+          ],
+          "order": [
+            "contact_form",
+            "payment_selection",
+            "product_table"
+          ],
+          "thank_you": [
+            "congrats_headline",
+            "result_summary",
+            "share_cta",
+            "community_cta"
+          ]
+        },
+        "copy_formula": "personalized_discovery",
+        "design_palette": "playful_brand",
+        "urgency_pattern": "results_expiry"
+      }
+    },
+    {
+      "name": "lead_magnet_funnel",
+      "when": {
+        "industry_contains": [
+          "publishing_media",
+          "coaching",
+          "education_course",
+          "service_professional"
+        ],
+        "price_tier": [
+          "free_zero"
+        ],
+        "customer_awareness": [
+          "unaware",
+          "problem_aware"
+        ],
+        "commitment_level": [
+          "low_email"
+        ],
+        "distribution_channel": [
+          "organic_search",
+          "social_organic",
+          "referral"
+        ]
+      },
+      "then": {
+        "funnel": "lead_magnet",
+        "pages": [
+          "optin",
+          "thank_you",
+          "email_sequence"
+        ],
+        "elements": {
+          "optin": [
+            "headline",
+            "lead_magnet_preview",
+            "benefit_bullets",
+            "email_form",
+            "cta_button"
+          ],
+          "thank_you": [
+            "download_link",
+            "email_check_prompt",
+            "next_steps"
+          ],
+          "email_sequence": [
+            "welcome_email",
+            "value_email",
+            "offer_email",
+            "social_proof_email"
+          ]
+        },
+        "copy_formula": "value_first",
+        "design_palette": "clean_minimal",
+        "urgency_pattern": "none"
+      }
+    }
+  ],
+  "element_usage_map": {
+    "navbar": {
+      "when": "More than 1 page in funnel, or brand recognition needed",
+      "alternatives": [
+        {
+          "option": "transparent_over_hero",
+          "when": "Hero has dark background image, nav needs to float"
+        },
+        {
+          "option": "solid_white_bar",
+          "when": "Light hero or content-heavy page, needs separation"
+        },
+        {
+          "option": "glassmorphism",
+          "when": "Modern design, video background, premium feel"
+        },
+        {
+          "option": "minimal_logo_only",
+          "when": "Single-purpose landing page, maximum focus on CTA"
+        },
+        {
+          "option": "logo_phone_cta",
+          "when": "Service business where phone call is a primary conversion"
+        }
+      ]
+    },
+    "hero_background": {
+      "when": "First page of funnel, need to establish context fast",
+      "alternatives": [
+        {
+          "option": "image_with_dark_overlay",
+          "when": "Service/healthcare \u2014 show the service in action"
+        },
+        {
+          "option": "video_background",
+          "when": "Premium product, entertainment, high engagement"
+        },
+        {
+          "option": "gradient_only",
+          "when": "B2B SaaS, clean modern, fast load needed"
+        },
+        {
+          "option": "solid_color",
+          "when": "Lead magnet, minimal distraction, maximum text focus"
+        },
+        {
+          "option": "pattern_texture",
+          "when": "Creative/design brands, artistic feel"
+        }
+      ]
+    },
+    "headline_type": {
+      "when": "Every page needs a headline \u2014 type depends on page goal",
+      "alternatives": [
+        {
+          "option": "category_first",
+          "when": "SEO-critical page, user searching for service type"
+        },
+        {
+          "option": "pain_first",
+          "when": "User is actively suffering, problem-aware visitor"
+        },
+        {
+          "option": "benefit_first",
+          "when": "User knows solution exists, needs best option"
+        },
+        {
+          "option": "curiosity_gap",
+          "when": "Cold traffic, needs intrigue to continue reading"
+        },
+        {
+          "option": "social_proof_first",
+          "when": "High skepticism industry, trust is primary barrier"
+        },
+        {
+          "option": "question_headline",
+          "when": "Engagement-focused, quiz/survey, self-identification"
+        }
+      ]
+    },
+    "cta_button": {
+      "when": "Every page needs exactly ONE primary CTA",
+      "alternatives": [
+        {
+          "option": "free_trial",
+          "when": "SaaS, subscription, low commitment barrier"
+        },
+        {
+          "option": "free_consultation",
+          "when": "Service business, high ticket, requires callback"
+        },
+        {
+          "option": "buy_now",
+          "when": "E-commerce, known product, purchase-ready visitor"
+        },
+        {
+          "option": "get_access",
+          "when": "Digital product, course, membership"
+        },
+        {
+          "option": "learn_more",
+          "when": "Top of funnel, cold traffic, education needed"
+        },
+        {
+          "option": "book_appointment",
+          "when": "Healthcare, professional services, scheduling needed"
+        },
+        {
+          "option": "download_free",
+          "when": "Lead magnet, content offer, email capture"
+        },
+        {
+          "option": "claim_offer",
+          "when": "One-time offer, scarcity-driven, urgency required"
+        }
+      ]
+    },
+    "testimonials": {
+      "when": "Trust is a conversion barrier \u2014 use on high-commitment pages",
+      "alternatives": [
+        {
+          "option": "photo_name_stars",
+          "when": "Standard social proof, works for most industries"
+        },
+        {
+          "option": "video_testimonial",
+          "when": "High ticket, healthcare, coaching \u2014 faces build trust"
+        },
+        {
+          "option": "case_study_grid",
+          "when": "B2B, SaaS, enterprise \u2014 needs results not quotes"
+        },
+        {
+          "option": "logo_wall",
+          "when": "B2B, established brands as clients"
+        },
+        {
+          "option": "before_after",
+          "when": "Physical transformation, weight loss, fitness, beauty"
+        },
+        {
+          "option": "stat_counter",
+          "when": "Volume-based trust \u2014 '10,000+ customers served'"
+        }
+      ]
+    },
+    "faq_section": {
+      "when": "Price > $50, or complex service, or high-consideration purchase",
+      "alternatives": [
+        {
+          "option": "accordion_faq",
+          "when": "Standard \u2014 5-7 questions, saves space"
+        },
+        {
+          "option": "linked_faq_page",
+          "when": "10+ questions, needs dedicated page"
+        },
+        {
+          "option": "inline_expand",
+          "when": "Short FAQ (3-4 questions), keep user on page"
+        },
+        {
+          "option": "two_column",
+          "when": "Visual FAQ with icons, creative brands"
+        }
+      ]
+    },
+    "countdown_timer": {
+      "when": "Time-limited offer exists, or event has a date",
+      "alternatives": [
+        {
+          "option": "hero_countdown",
+          "when": "Primary urgency driver, event registration"
+        },
+        {
+          "option": "offer_bar",
+          "when": "Secondary urgency, supplement to main CTA"
+        },
+        {
+          "option": "checkout_countdown",
+          "when": "Order page, prevents cart abandonment"
+        },
+        {
+          "option": "static_scarcity",
+          "when": "'Only 100 spots' \u2014 no timer, just count"
+        }
+      ]
+    },
+    "video": {
+      "when": "Complex product needs demonstration, or trust-building needed fast",
+      "alternatives": [
+        {
+          "option": "hero_vsl",
+          "when": "Primary sales tool, VSL funnel, info products"
+        },
+        {
+          "option": "product_demo",
+          "when": "SaaS, software \u2014 show the interface"
+        },
+        {
+          "option": "explainer",
+          "when": "Complex service needs quick explanation"
+        },
+        {
+          "option": "testimonial_video",
+          "when": "High ticket, face-to-face trust needed"
+        },
+        {
+          "option": "background_video",
+          "when": "Ambient, brand-building, not instructional"
+        }
+      ]
+    },
+    "form": {
+      "when": "Need to collect user data \u2014 email, contact, or payment info",
+      "alternatives": [
+        {
+          "option": "single_email",
+          "when": "Lead magnet, minimum friction"
+        },
+        {
+          "option": "name_email",
+          "when": "Standard optin, slight qualification"
+        },
+        {
+          "option": "full_contact",
+          "when": "Webinar registration, needs more data"
+        },
+        {
+          "option": "application",
+          "when": "High ticket service, needs qualification"
+        },
+        {
+          "option": "billing_checkout",
+          "when": "Payment collection, full address + payment"
+        },
+        {
+          "option": "multi_step",
+          "when": "Long form, reduces abandonment per step"
+        }
+      ]
+    },
+    "footer": {
+      "when": "Every page needs one \u2014 legal requirement + trust signal",
+      "alternatives": [
+        {
+          "option": "minimal_legal",
+          "when": "Simple funnel, privacy + terms only"
+        },
+        {
+          "option": "with_social",
+          "when": "Brand building, community engagement desired"
+        },
+        {
+          "option": "with_menu",
+          "when": "Multi-page site, needs navigation"
+        },
+        {
+          "option": "with_cta",
+          "when": "Long page, footer is last chance for conversion"
+        },
+        {
+          "option": "with_newsletter",
+          "when": "Content site, email list building continues"
+        }
+      ]
+    },
+    "thank_you_page": {
+      "when": "After every conversion event \u2014 purchase, signup, booking, download",
+      "alternatives": [
+        {
+          "option": "purchase_confirmation",
+          "when": "After payment \u2014 receipt + delivery info"
+        },
+        {
+          "option": "appointment_confirmed",
+          "when": "After booking \u2014 expectations + phone number"
+        },
+        {
+          "option": "download_access",
+          "when": "After optin \u2014 link to content + next steps"
+        },
+        {
+          "option": "registration_success",
+          "when": "After event signup \u2014 calendar + reminders"
+        },
+        {
+          "option": "trial_welcome",
+          "when": "After trial signup \u2014 onboarding + support"
+        },
+        {
+          "option": "with_upsell",
+          "when": "After any conversion \u2014 cross-sell opportunity"
+        }
+      ]
+    }
+  },
+  "decision_matrix": "For any combination of conditions, the engine selects: funnel_type \u2192 pages \u2192 elements \u2192 copy_formula \u2192 design_palette \u2192 urgency_pattern"
+}
