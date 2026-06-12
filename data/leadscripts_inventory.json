@@ -1,0 +1,198 @@
+{
+  "source": "LeadScripts (https://app.leadscripts.co)",
+  "account": "ryan@bowtiekreative.com",
+  "login_status": "successful",
+  "funnel_formulas_found": {
+    "2_step_tripwire": {
+      "id": 8,
+      "pages": [
+        "2-Step Order Page",
+        "Downsell Page",
+        "Offer Wall Page",
+        "Upsell (OTO) Page"
+      ]
+    },
+    "application_funnel": {
+      "pages": [
+        "Application Page",
+        "Reverse Squeeze Page",
+        "Thank You Page"
+      ]
+    },
+    "ask_campaign_funnel": {
+      "pages": [
+        "Ask Page",
+        "Thank You Page"
+      ]
+    },
+    "autowebinar_funnel": {
+      "pages": [
+        "Indoctrination",
+        "Broadcast",
+        "Confirmation",
+        "Registration"
+      ]
+    },
+    "bridge_page_funnel": {
+      "pages": [
+        "Bridge Page",
+        "Squeeze Page"
+      ]
+    },
+    "cancellation_funnel": {
+      "pages": [
+        "Article Page",
+        "Survey Page"
+      ]
+    },
+    "daily_deal_funnel": {
+      "pages": [
+        "2-Step Order Page",
+        "Share Page"
+      ]
+    },
+    "hero_funnel": {
+      "pages": [
+        "Hero Page",
+        "Thank You Page"
+      ]
+    },
+    "homepage_funnel": {
+      "pages": [
+        "Home Page",
+        "Thank You Page"
+      ]
+    },
+    "invisible_funnel": {
+      "pages": [
+        "Offer Wall Page",
+        "Upsell (OTO) Page",
+        "Video Sales Letter (VSL) Order Page"
+      ]
+    },
+    "lead_magnet_funnel": {
+      "pages": [
+        "Lead Magnet",
+        "Thank You Page"
+      ]
+    },
+    "live_demo_funnel": {
+      "pages": [
+        "Live Demo Page",
+        "Thank You Page"
+      ]
+    },
+    "membership_funnel": {
+      "pages": [
+        "Offer Wall Page",
+        "Video Sales Letter (VSL) Order Page"
+      ]
+    },
+    "product_launch_funnel": {
+      "pages": [
+        "Product Launch Order Page",
+        "Product Launch Page"
+      ]
+    },
+    "reverse_squeeze_funnel": {
+      "pages": [
+        "Reverse Squeeze Page",
+        "Thank You Page"
+      ]
+    },
+    "sales_letter_funnel": {
+      "pages": [
+        "Downsell Page",
+        "Offer Wall Page",
+        "Sales Letter Order Page",
+        "Upsell (OTO) Page"
+      ]
+    },
+    "squeeze_page_funnel": {
+      "pages": [
+        "Squeeze Page",
+        "Thank You Page"
+      ]
+    },
+    "summit_funnel": {
+      "pages": [
+        "Sales Letter Page",
+        "Share Page",
+        "Video Sales Letter (VSL) Order Page"
+      ]
+    },
+    "survey_page_funnel": {
+      "pages": [
+        "Survey Page"
+      ]
+    },
+    "video_sales_funnel": {
+      "pages": [
+        "Downsell Page",
+        "Offer Wall Page",
+        "Upsell (OTO)",
+        "Video Sales Letter (VSL)"
+      ]
+    },
+    "webinar_funnel": {
+      "pages": [
+        "Indoctrination",
+        "Broadcast",
+        "Confirmation",
+        "Registration"
+      ]
+    }
+  },
+  "email_sequences_found": [
+    "Abandoned Cart Series (4 emails)",
+    "Cold Outreach Series",
+    "Feedback Request",
+    "Inbox Interrupter",
+    "Last Chance Emails",
+    "Lead Magnet Autoresponder",
+    "Next Step Offer",
+    "Onboarding Series (5 emails)",
+    "Partnership Series (3 emails)",
+    "Sales Offer Solo Emails",
+    "Email Series (Script Wizard)"
+  ],
+  "ad_types_found": [
+    "Facebook Ad Copy (AI)",
+    "Facebook Ad Copy (Script Wizard)",
+    "Google Ad Headlines",
+    "Google Ad Descriptions",
+    "Pinterest Pin Descriptions",
+    "Instagram Headlines",
+    "Instagram Posts"
+  ],
+  "video_scripts_found": [
+    "Video Intro Script",
+    "Video Outro Script",
+    "Video Intro Scripts (auto)",
+    "Video Outro Scripts (auto)",
+    "Video Sales Letter (VSL)"
+  ],
+  "page_elements_with_variables": [
+    "Headlines (H1) \u2014 Premade Headlines with your info",
+    "Sub Headings (H2) \u2014 Premade Sub Headings with your info",
+    "Buttons \u2014 Premade Buttons with your info",
+    "Order Bumps \u2014 Premade Order Bumps with your info",
+    "Survey Questions \u2014 Premade Survey Questions with your info",
+    "SEO Meta Data \u2014 Premade SEO Meta Data with your info",
+    "Download Pages",
+    "Opt-in Pages",
+    "Sales Pages (long copy)",
+    "Thank You Pages",
+    "Paragraphs \u2014 Premade paragraphs with your info",
+    "Bullet Lists \u2014 Premade bullet lists",
+    "Openings \u2014 Premade openings for your info"
+  ],
+  "formula_url_pattern": "https://app.leadscripts.co/script/create/{id}?funnelName={name}",
+  "status": "browser disconnected before individual formula editors could be opened",
+  "next_steps": [
+    "Open each funnel formula editor to extract variables/fields",
+    "Open Premade For You tab for pre-built templates",
+    "Open SEO tab for SEO Meta Data formulas",
+    "Extract actual script content from each tool"
+  ]
+}
