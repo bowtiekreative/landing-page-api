@@ -1,0 +1,54 @@
+{
+  "prediction_results": {
+    "dimensions": [
+      "entry (6)",
+      "complexity (4)",
+      "money (6)"
+    ],
+    "total_predictions": 144,
+    "generated_by": "EventMath prediction engine v0.4",
+    "file": "examples/funnel-prediction-v3.em"
+  },
+  "what_we_collected": {
+    "v1_funnels": 5,
+    "v2_v7_funnels": 56,
+    "custom_chiropractic": 10,
+    "total": 71
+  },
+  "coverage_by_entry_type": {
+    "free_offer": "29 funnels (tripwire pattern)",
+    "summit_register": "14 funnels (summit/summit pattern)",
+    "apply": "18 funnels (application pattern)",
+    "content_gate": "0 funnels \u2014 MISSING",
+    "paid_product": "4 funnels (direct order)",
+    "quiz": "0 funnels \u2014 MISSING"
+  },
+  "coverage_by_money_model": {
+    "free_then_paid": "most common (optin \u2192 upsell)",
+    "tripwire": "20+ examples",
+    "high_ticket": "5+ examples (application \u2192 proposal)",
+    "subscription": "0 \u2014 MISSING",
+    "donation": "0 \u2014 MISSING"
+  },
+  "coverage_by_complexity": {
+    "light_2_pages": "5 funnels",
+    "medium_3_pages": "20 funnels",
+    "deep_4_pages": "41 funnels",
+    "full_5_plus": "5 funnels"
+  },
+  "coverage_by_exit": {
+    "purchase": "most common",
+    "appointment": "healthcare funnels",
+    "cancel": "some funnels",
+    "waitlist": "0 \u2014 MISSING",
+    "community": "thank-you pages hint at it",
+    "trial": "0 \u2014 MISSING"
+  },
+  "coverage_by_branch": {
+    "none": "simple funnels",
+    "upsell_only": "most common",
+    "upsell_down": "many funnels",
+    "multi": "0 \u2014 MISSING"
+  },
+  "executive_summary": "EventMath's prediction engine confirms: we have ~25% of the full funnel landscape. The prediction engine generates 144 base combinations (6\u00d74\u00d76) across 3 dimensions. Adding branch (4) and exit (6) gives 3,456 theoretical combos, ~200-400 valid. We have 71. The biggest gaps are: subscription models, quiz funnels, webinar funnels, and multi-branch architectures."
+}
