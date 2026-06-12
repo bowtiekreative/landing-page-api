@@ -1,0 +1,33 @@
+{
+  "total_page_types": 15,
+  "total_entry_methods": 6,
+  "total_branch_points": 5,
+  "total_exit_states": 4,
+  "estimated_valid_funnels": "200-300",
+  "collected_so_far": 71,
+  "coverage_percentage": "~25-35%",
+  "architectures_found": {
+    "tripwire": "20+ examples (supplements, DVDs, weight loss)",
+    "application": "15+ examples (chiropractic, therapy, coaching)",
+    "summit": "12+ examples (MLM, cyber security, music, yoga)",
+    "simple_optin": "10+ examples (lead magnets, downloads)",
+    "direct_order": "5+ examples (products bought directly)"
+  },
+  "missing_architectures": [
+    "webinar (register \u2192 attend \u2192 replay \u2192 buy)",
+    "multi_step_application (apply \u2192 qualify \u2192 upsell \u2192 book \u2192 confirm)",
+    "vsl_with_bumps (gate \u2192 VSL \u2192 upsell \u2192 order+bump \u2192 thank you)",
+    "subscription (trial \u2192 convert \u2192 upgrade \u2192 cancel \u2192 win-back)",
+    "quiz_survey (quiz \u2192 results \u2192 recommendation \u2192 order)",
+    "cart_abandon (add \u2192 abandon \u2192 email \u2192 recover)",
+    "waitlist (join \u2192 notify \u2192 limited \u2192 full access)",
+    "enterprise_saas (demo \u2192 trial \u2192 onboard \u2192 subscribe \u2192 expand)",
+    "affiliate (apply \u2192 approve \u2192 promote \u2192 commission)",
+    "contests (enter \u2192 share \u2192 refer \u2192 winner)",
+    "lead_magnet_to_call (download \u2192 email sequence \u2192 sales call)",
+    "community_membership (register \u2192 trial \u2192 upgrade \u2192 lapsed)",
+    "physical_retail_to_online (in-store \u2192 email \u2192 purchase)"
+  ],
+  "total_possible_combinations": 1800,
+  "estimates_valid": "200-300"
+}
